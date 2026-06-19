@@ -1,0 +1,10 @@
+{
+    "module_id": "map_assistant",
+    "module_name": "Map Assistant",
+    "version": "1.0.0",
+    "build": "001",
+    "package_type": "jarvis_module",
+    "status": "ACTIVE",
+    "author": "JARVIS",
+    "installable": true
+}

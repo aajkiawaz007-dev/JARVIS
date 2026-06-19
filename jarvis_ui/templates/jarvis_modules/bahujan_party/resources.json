@@ -1,0 +1,128 @@
+{
+    "module": "Bahujan Party",
+
+    "resources": {
+
+        "models": [
+
+            "bert",
+            "distilbert",
+            "roberta",
+            "albert",
+            "fasttext",
+            "word2vec",
+            "sentence-transformer-local",
+            "whisper",
+            "vosk",
+            "silero-vad",
+            "east-text-detector",
+            "dbnet"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "numpy",
+            "scipy",
+            "pandas",
+            "opencv-python",
+            "pillow",
+            "easyocr",
+            "pytesseract",
+            "transformers",
+            "tokenizers",
+            "sentencepiece",
+            "nltk",
+            "spacy",
+            "gensim",
+            "regex",
+            "scikit-learn",
+            "faiss-cpu",
+            "networkx",
+            "matplotlib",
+            "python-docx",
+            "openpyxl",
+            "python-pptx",
+            "reportlab",
+            "pymupdf",
+            "pdfplumber",
+            "pypdf",
+            "sqlite3",
+            "sqlalchemy",
+            "schedule",
+            "apscheduler",
+            "psutil",
+            "watchdog",
+            "pyyaml",
+            "toml",
+            "onnxruntime",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "members",
+            "leaders",
+            "workers",
+            "committees",
+            "districts",
+            "states",
+            "campaigns",
+            "events",
+            "meetings",
+            "tasks",
+            "documents",
+            "news",
+            "history",
+            "reports",
+            "settings",
+            "logs"
+        ],
+
+        "assets": [
+
+            "logos",
+            "flags",
+            "banners",
+            "posters",
+            "pamphlets",
+            "letters",
+            "forms",
+            "images",
+            "videos",
+            "audio",
+            "documents",
+            "icons",
+            "templates",
+            "signatures",
+            "stamps",
+            "backups",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "display",
+            "keyboard",
+            "mouse",
+            "microphone",
+            "speaker",
+            "camera",
+            "scanner",
+            "printer",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage"
+        ]
+    }
+}

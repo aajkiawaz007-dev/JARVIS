@@ -1,0 +1,108 @@
+{
+    "module": "Video Uploader",
+
+    "resources": {
+
+        "models": [
+
+            "yolov8",
+            "mobilenet",
+            "resnet50",
+            "efficientnet",
+            "whisper",
+            "vosk",
+            "silero-vad",
+            "fasttext",
+            "word2vec",
+            "bert",
+            "distilbert"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "torchaudio",
+            "numpy",
+            "scipy",
+            "pandas",
+            "opencv-python",
+            "pillow",
+            "moviepy",
+            "ffmpeg-python",
+            "imageio",
+            "imageio-ffmpeg",
+            "librosa",
+            "soundfile",
+            "sounddevice",
+            "pyaudio",
+            "pydub",
+            "sqlite3",
+            "sqlalchemy",
+            "requests",
+            "aiohttp",
+            "websockets",
+            "hashlib",
+            "pathlib",
+            "watchdog",
+            "psutil",
+            "pyyaml",
+            "toml",
+            "onnxruntime",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "videos",
+            "channels",
+            "playlists",
+            "metadata",
+            "thumbnails",
+            "captions",
+            "tags",
+            "categories",
+            "history",
+            "exports",
+            "logs"
+        ],
+
+        "assets": [
+
+            "videos",
+            "thumbnails",
+            "captions",
+            "subtitles",
+            "background_music",
+            "sound_effects",
+            "watermarks",
+            "templates",
+            "icons",
+            "channel_art",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "camera",
+            "microphone",
+            "speaker",
+            "display",
+            "keyboard",
+            "mouse",
+            "network_adapter",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage"
+        ]
+    }
+}

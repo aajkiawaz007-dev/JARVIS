@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Dashboard</title>
+    <style>
+        body { font-family: Arial; background:#111; color:white; padding:20px;}
+        .box { background:#222; padding:20px; border-radius:10px; margin-top:20px;}
+        a { display:inline-block; margin-top:10px; padding:10px; background:limegreen; color:black; text-decoration:none; border-radius:5px;}
+        .logout { background:orange; padding:8px 15px; float:right;}
+    </style>
+</head>
+<body>
+
+    <h2>User Dashboard</h2>
+    <a class="logout" href="/logout">Logout</a>
+
+    <div class="box">
+        <h3>Welcome User</h3>
+        <p>Your role: <b>{{role}}</b></p>
+
+        {% if role == "uploader" or role == "admin" %}
+            <a href="/user/upload">Upload Video Request</a>
+        {% else %}
+            <p style="color:gray;">You do not have upload permission.</p>
+        {% endif %}
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "module_id": "friends_book",
+  "module_name": "Friends Book",
+  "version": "1.0.0",
+  "build": "001",
+  "status": "ACTIVE",
+  "health": "HEALTHY",
+  "category": "Creative",
+  "author": "JARVIS",
+  "route": "/friends-book",
+  "html_file": "friends_book.html",
+  "last_updated": "2026-06-12"
+}

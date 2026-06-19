@@ -1,0 +1,6 @@
+This module uses which libraries?
+torch
+transformers
+librosa
+soundfile
+numpy

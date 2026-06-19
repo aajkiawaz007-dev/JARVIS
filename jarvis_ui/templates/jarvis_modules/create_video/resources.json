@@ -1,0 +1,119 @@
+{
+    "module": "Create Video",
+
+    "resources": {
+
+        "models": [
+
+            "videomae",
+            "timesformer",
+            "yolov8",
+            "sam",
+            "mobilenet",
+            "resnet50",
+            "efficientnet",
+            "real-esrgan",
+            "gfpgan",
+            "u2net",
+            "whisper",
+            "vosk",
+            "silero-vad",
+            "fasttext",
+            "word2vec"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "torchaudio",
+            "opencv-python",
+            "numpy",
+            "scipy",
+            "pandas",
+            "moviepy",
+            "ffmpeg-python",
+            "imageio",
+            "imageio-ffmpeg",
+            "pillow",
+            "scikit-image",
+            "albumentations",
+            "onnxruntime",
+            "easyocr",
+            "pytesseract",
+            "sounddevice",
+            "soundfile",
+            "pyaudio",
+            "pydub",
+            "librosa",
+            "vosk",
+            "pyttsx3",
+            "speechrecognition",
+            "sqlite3",
+            "sqlalchemy",
+            "matplotlib",
+            "networkx",
+            "pyyaml",
+            "toml",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "projects",
+            "videos",
+            "timelines",
+            "clips",
+            "audio_tracks",
+            "subtitles",
+            "effects",
+            "transitions",
+            "templates",
+            "history",
+            "exports"
+        ],
+
+        "assets": [
+
+            "videos",
+            "images",
+            "audio",
+            "background_music",
+            "sound_effects",
+            "voiceovers",
+            "subtitles",
+            "captions",
+            "fonts",
+            "stickers",
+            "transitions",
+            "filters",
+            "overlays",
+            "animations",
+            "templates",
+            "thumbnails",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "camera",
+            "microphone",
+            "speaker",
+            "display",
+            "keyboard",
+            "mouse",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage"
+        ]
+    }
+}

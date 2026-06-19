@@ -1,0 +1,16 @@
+flask
+sqlite3
+pandas
+openpyxl
+python-docx
+reportlab
+qrcode
+pillow
+requests
+rich
+python-dotenv
+matplotlib
+numpy
+
+```
+```

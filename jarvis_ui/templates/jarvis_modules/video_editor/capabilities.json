@@ -1,0 +1,15 @@
+{
+    "module": "Video Editor",
+
+    "capabilities": [
+
+        "video_editing",
+
+        "video_rendering",
+
+        "subtitle_generation",
+
+        "video_export"
+
+    ]
+}

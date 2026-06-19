@@ -1,0 +1,119 @@
+{
+    "module": "Video Editor",
+
+    "resources": {
+
+        "models": [
+
+            "yolov8",
+            "sam",
+            "mobilenet",
+            "resnet50",
+            "efficientnet",
+            "u2net",
+            "real-esrgan",
+            "gfpgan",
+            "whisper",
+            "vosk",
+            "silero-vad",
+            "wav2vec2"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "torchaudio",
+            "numpy",
+            "scipy",
+            "pandas",
+            "opencv-python",
+            "pillow",
+            "moviepy",
+            "ffmpeg-python",
+            "imageio",
+            "imageio-ffmpeg",
+            "scikit-image",
+            "albumentations",
+            "librosa",
+            "soundfile",
+            "sounddevice",
+            "pyaudio",
+            "pydub",
+            "vosk",
+            "speechrecognition",
+            "easyocr",
+            "pytesseract",
+            "onnxruntime",
+            "matplotlib",
+            "networkx",
+            "sqlite3",
+            "sqlalchemy",
+            "pyyaml",
+            "toml",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "projects",
+            "videos",
+            "clips",
+            "timelines",
+            "audio_tracks",
+            "subtitles",
+            "captions",
+            "effects",
+            "transitions",
+            "filters",
+            "templates",
+            "history",
+            "exports"
+        ],
+
+        "assets": [
+
+            "videos",
+            "images",
+            "audio",
+            "background_music",
+            "voiceovers",
+            "sound_effects",
+            "subtitles",
+            "captions",
+            "fonts",
+            "stickers",
+            "transitions",
+            "filters",
+            "effects",
+            "overlays",
+            "animations",
+            "templates",
+            "thumbnails",
+            "watermarks",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "camera",
+            "microphone",
+            "speaker",
+            "display",
+            "keyboard",
+            "mouse",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage"
+        ]
+    }
+}

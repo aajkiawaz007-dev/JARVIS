@@ -1,0 +1,15 @@
+{
+    "module": "AI English Teacher",
+
+    "capabilities": [
+
+        "spoken_english",
+
+        "grammar_training",
+
+        "pronunciation_analysis",
+
+        "conversation_practice"
+
+    ]
+}

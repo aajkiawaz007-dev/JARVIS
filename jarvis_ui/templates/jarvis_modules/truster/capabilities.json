@@ -1,0 +1,37 @@
+{
+    "module": "Truster",
+
+    "capabilities": [
+
+        "post_creation",
+
+        "post_editing",
+
+        "text_generation",
+
+        "image_posting",
+
+        "video_posting",
+
+        "comment_management",
+
+        "like_management",
+
+        "follow_management",
+
+        "hashtag_generation",
+
+        "trend_analysis",
+
+        "content_scheduling",
+
+        "notification_handling",
+
+        "user_profile_management",
+
+        "search_functionality",
+
+        "direct_messaging"
+
+    ]
+}

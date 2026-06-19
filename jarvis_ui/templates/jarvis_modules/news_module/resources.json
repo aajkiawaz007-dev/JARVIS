@@ -1,0 +1,139 @@
+{
+    "module": "AI News",
+
+    "resources": {
+
+        "models": [
+
+            "bert",
+            "distilbert",
+            "roberta",
+            "albert",
+            "fasttext",
+            "word2vec",
+            "sentence-transformer-local",
+            "whisper",
+            "vosk",
+            "silero-vad",
+            "wav2vec2",
+            "yolov8",
+            "mobilenet",
+            "resnet50",
+            "east-text-detector",
+            "dbnet"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "torchaudio",
+            "transformers",
+            "tokenizers",
+            "sentencepiece",
+            "numpy",
+            "scipy",
+            "pandas",
+            "opencv-python",
+            "pillow",
+            "easyocr",
+            "pytesseract",
+            "moviepy",
+            "ffmpeg-python",
+            "imageio",
+            "imageio-ffmpeg",
+            "librosa",
+            "soundfile",
+            "sounddevice",
+            "pyaudio",
+            "pydub",
+            "speechrecognition",
+            "pyttsx3",
+            "nltk",
+            "spacy",
+            "gensim",
+            "regex",
+            "scikit-learn",
+            "faiss-cpu",
+            "networkx",
+            "matplotlib",
+            "python-docx",
+            "openpyxl",
+            "python-pptx",
+            "reportlab",
+            "pymupdf",
+            "pdfplumber",
+            "pypdf",
+            "sqlite3",
+            "sqlalchemy",
+            "watchdog",
+            "psutil",
+            "onnxruntime",
+            "pyyaml",
+            "toml",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "news_articles",
+            "categories",
+            "headlines",
+            "reports",
+            "sources",
+            "authors",
+            "images",
+            "videos",
+            "audio",
+            "tags",
+            "bookmarks",
+            "history",
+            "archives",
+            "settings",
+            "logs"
+        ],
+
+        "assets": [
+
+            "news_templates",
+            "banners",
+            "thumbnails",
+            "images",
+            "videos",
+            "audio",
+            "voiceovers",
+            "captions",
+            "subtitles",
+            "logos",
+            "icons",
+            "fonts",
+            "documents",
+            "exports",
+            "backups"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "camera",
+            "microphone",
+            "speaker",
+            "display",
+            "keyboard",
+            "mouse",
+            "scanner",
+            "printer",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage"
+        ]
+    }
+}

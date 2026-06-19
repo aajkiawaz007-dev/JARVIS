@@ -1,0 +1,107 @@
+{
+    "module": "Friends Book",
+
+    "resources": {
+
+        "models": [
+
+            "bert",
+            "distilbert",
+            "word2vec",
+            "fasttext",
+            "sentence-transformer-local"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "numpy",
+            "pandas",
+            "opencv-python",
+            "pillow",
+            "sqlite3",
+            "sqlalchemy",
+            "bcrypt",
+            "pyjwt",
+            "requests",
+            "aiohttp",
+            "websockets",
+            "python-socketio",
+            "fastapi",
+            "uvicorn",
+            "pydantic",
+            "passlib",
+            "redis",
+            "celery",
+            "moviepy",
+            "ffmpeg-python",
+            "imageio",
+            "imageio-ffmpeg",
+            "soundfile",
+            "pydub",
+            "librosa",
+            "scipy",
+            "regex",
+            "nltk",
+            "spacy",
+            "gensim",
+            "networkx",
+            "matplotlib",
+            "tqdm"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "users",
+            "profiles",
+            "friends",
+            "followers",
+            "posts",
+            "comments",
+            "likes",
+            "shares",
+            "messages",
+            "notifications",
+            "groups",
+            "pages",
+            "hashtags",
+            "media",
+            "stories",
+            "reels"
+        ],
+
+        "assets": [
+
+            "images",
+            "videos",
+            "audio",
+            "avatars",
+            "stickers",
+            "emojis",
+            "themes",
+            "stories",
+            "reels",
+            "live_streams",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "camera",
+            "microphone",
+            "speaker",
+            "gpu",
+            "cpu",
+            "ram",
+            "storage"
+        ]
+    }
+}

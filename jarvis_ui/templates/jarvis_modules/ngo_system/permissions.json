@@ -1,0 +1,10 @@
+
+{
+    "internet": false,
+    "microphone": false,
+    "camera": false,
+    "filesystem": true,
+    "location": false,
+    "ai_access": true,
+    "database": false
+}

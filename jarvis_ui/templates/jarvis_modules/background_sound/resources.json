@@ -1,0 +1,102 @@
+{
+    "module": "Background Sound",
+
+    "resources": {
+
+        "models": [
+
+            "yamnet",
+            "vggish",
+            "wav2vec2",
+            "whisper",
+            "vosk",
+            "silero-vad",
+            "fasttext",
+            "word2vec"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchaudio",
+            "numpy",
+            "scipy",
+            "librosa",
+            "soundfile",
+            "sounddevice",
+            "pyaudio",
+            "pydub",
+            "wave",
+            "audioop",
+            "aubio",
+            "essentia",
+            "madmom",
+            "mido",
+            "pretty_midi",
+            "ffmpeg-python",
+            "imageio",
+            "imageio-ffmpeg",
+            "moviepy",
+            "onnxruntime",
+            "matplotlib",
+            "pandas",
+            "sqlite3",
+            "sqlalchemy",
+            "pyyaml",
+            "toml",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "sound_library",
+            "music_tracks",
+            "ambient_sounds",
+            "nature_sounds",
+            "sound_effects",
+            "playlists",
+            "presets",
+            "history",
+            "favorites",
+            "exports"
+        ],
+
+        "assets": [
+
+            "audio",
+            "background_music",
+            "ambient_sounds",
+            "rain_sounds",
+            "forest_sounds",
+            "ocean_sounds",
+            "white_noise",
+            "pink_noise",
+            "meditation_tracks",
+            "sound_effects",
+            "loops",
+            "playlists",
+            "presets",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "speaker",
+            "headphones",
+            "microphone",
+            "audio_interface",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage"
+        ]
+    }
+}

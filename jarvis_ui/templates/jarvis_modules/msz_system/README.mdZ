@@ -1,0 +1,50 @@
+# MSZ System
+
+Purpose:
+Offline & Secure Messaging Platform for JARVIS.
+
+Status:
+Development
+
+Version:
+1.0
+
+Owner:
+JARVIS Project
+
+Phase:
+3
+
+Description:
+MSZ (Messaging Zone) System is a private communication platform designed for text messaging, voice messages, media sharing, group communication, notifications and secure user-to-user interaction. The long-term goal is to provide a Snapchat, WhatsApp and Telegram inspired communication environment inside JARVIS.
+
+Current Features:
+
+* Module UI
+* Route Connected
+* Independent Module Structure
+
+Planned Features:
+
+* Private Chat
+* Group Chat
+* Voice Messages
+* Media Sharing
+* Friend Requests
+* User Profiles
+* Message Search
+* Offline Messaging
+* End-to-End Encryption
+
+Target Mode:
+Offline First
+
+Security Level:
+High Security Communication
+
+Primary Users:
+
+* JARVIS Users
+* Friends
+* Teams
+* Communities

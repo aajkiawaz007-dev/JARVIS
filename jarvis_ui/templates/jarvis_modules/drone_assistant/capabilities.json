@@ -1,0 +1,15 @@
+{
+    "module": "Drone Assistant",
+
+    "capabilities": [
+
+        "drone_navigation",
+
+        "mission_planning",
+
+        "camera_control",
+
+        "gps_tracking"
+
+    ]
+}

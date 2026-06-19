@@ -1,0 +1,15 @@
+{
+    "module": "weather_assistant",
+
+    "capabilities": [
+
+        "weather_forecast",
+
+        "climate_analysis",
+
+        "environmental_monitoring",
+
+        "weather_alerts"
+
+    ]
+}

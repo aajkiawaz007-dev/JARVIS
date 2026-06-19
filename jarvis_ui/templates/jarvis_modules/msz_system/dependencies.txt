@@ -1,0 +1,14 @@
+flask
+flask-socketio
+eventlet
+sqlite3
+sqlalchemy
+python-dotenv
+requests
+pillow
+opencv-python
+pydub
+numpy
+rich
+cryptography
+werkzeug

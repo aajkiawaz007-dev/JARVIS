@@ -1,0 +1,108 @@
+{
+    "module": "Music Studio",
+
+    "resources": {
+
+        "models": [
+
+            "whisper",
+            "vosk",
+            "silero-vad",
+            "wav2vec2",
+            "yamnet",
+            "vggish",
+            "fasttext",
+            "word2vec"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchaudio",
+            "numpy",
+            "scipy",
+            "librosa",
+            "soundfile",
+            "sounddevice",
+            "pyaudio",
+            "pydub",
+            "wave",
+            "audioop",
+            "aubio",
+            "essentia",
+            "madmom",
+            "mido",
+            "pretty_midi",
+            "music21",
+            "mingus",
+            "opencv-python",
+            "matplotlib",
+            "pandas",
+            "sqlite3",
+            "sqlalchemy",
+            "ffmpeg-python",
+            "imageio",
+            "imageio-ffmpeg",
+            "moviepy",
+            "onnxruntime",
+            "pyyaml",
+            "toml",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "projects",
+            "tracks",
+            "instruments",
+            "samples",
+            "loops",
+            "playlists",
+            "lyrics",
+            "effects",
+            "presets",
+            "history",
+            "exports"
+        ],
+
+        "assets": [
+
+            "audio",
+            "songs",
+            "samples",
+            "loops",
+            "beats",
+            "melodies",
+            "vocals",
+            "sound_effects",
+            "background_music",
+            "instruments",
+            "drum_kits",
+            "presets",
+            "lyrics",
+            "cover_art",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "microphone",
+            "speaker",
+            "headphones",
+            "midi_keyboard",
+            "audio_interface",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage"
+        ]
+    }
+}

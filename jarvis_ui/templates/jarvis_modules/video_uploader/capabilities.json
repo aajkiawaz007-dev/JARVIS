@@ -1,0 +1,15 @@
+{
+    "module": "Video Uploader",
+
+    "capabilities": [
+
+        "video_upload",
+
+        "video_editing",
+
+        "subtitle_generation",
+
+        "background_video_creation"
+
+    ]
+}

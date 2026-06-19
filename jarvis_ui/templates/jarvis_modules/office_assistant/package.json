@@ -1,0 +1,10 @@
+{
+    "module_id": "office_assistant",
+    "module_name": "Office Assistant",
+    "version": "1.0.0",
+    "build": "001",
+    "package_type": "jarvis_module",
+    "status": "ACTIVE",
+    "author": "JARVIS",
+    "installable": true
+}

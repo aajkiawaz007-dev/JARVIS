@@ -1,0 +1,97 @@
+{
+    "module": "Picture Editor",
+
+    "resources": {
+
+        "models": [
+
+            "yolov8",
+            "sam",
+            "u2net",
+            "real-esrgan",
+            "gfpgan",
+            "mobilenet",
+            "resnet50",
+            "efficientnet",
+            "east-text-detector",
+            "dbnet"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "numpy",
+            "scipy",
+            "pandas",
+            "opencv-python",
+            "pillow",
+            "scikit-image",
+            "albumentations",
+            "imageio",
+            "imageio-ffmpeg",
+            "easyocr",
+            "pytesseract",
+            "onnxruntime",
+            "matplotlib",
+            "networkx",
+            "sqlite3",
+            "sqlalchemy",
+            "pyyaml",
+            "toml",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "projects",
+            "images",
+            "layers",
+            "filters",
+            "templates",
+            "fonts",
+            "history",
+            "exports"
+        ],
+
+        "assets": [
+
+            "images",
+            "backgrounds",
+            "textures",
+            "frames",
+            "stickers",
+            "brushes",
+            "fonts",
+            "icons",
+            "logos",
+            "watermarks",
+            "filters",
+            "effects",
+            "overlays",
+            "templates",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "camera",
+            "scanner",
+            "display",
+            "keyboard",
+            "mouse",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage"
+        ]
+    }
+}

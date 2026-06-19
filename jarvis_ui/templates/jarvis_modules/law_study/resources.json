@@ -1,0 +1,109 @@
+{
+    "module": "Law Study",
+
+    "resources": {
+
+        "models": [
+
+            "bert",
+            "distilbert",
+            "legal-bert",
+            "roberta",
+            "fasttext",
+            "word2vec",
+            "sentence-transformer-local"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "transformers",
+            "tokenizers",
+            "sentencepiece",
+            "numpy",
+            "scipy",
+            "pandas",
+            "regex",
+            "nltk",
+            "spacy",
+            "gensim",
+            "networkx",
+            "scikit-learn",
+            "rank-bm25",
+            "whoosh",
+            "faiss-cpu",
+            "pymupdf",
+            "pdfplumber",
+            "pypdf",
+            "python-docx",
+            "openpyxl",
+            "reportlab",
+            "pytesseract",
+            "easyocr",
+            "opencv-python",
+            "pillow",
+            "matplotlib",
+            "sqlite3",
+            "sqlalchemy",
+            "pyyaml",
+            "toml",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "laws",
+            "acts",
+            "sections",
+            "articles",
+            "judgments",
+            "case_studies",
+            "notes",
+            "flashcards",
+            "quizzes",
+            "history",
+            "bookmarks",
+            "progress"
+        ],
+
+        "assets": [
+
+            "law_books",
+            "bare_acts",
+            "case_files",
+            "notes",
+            "summaries",
+            "charts",
+            "diagrams",
+            "question_banks",
+            "flashcards",
+            "templates",
+            "exports",
+            "backups"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "cpu",
+            "gpu",
+            "ram",
+            "storage",
+            "display",
+            "keyboard",
+            "mouse",
+            "scanner",
+            "printer",
+            "microphone",
+            "speaker"
+        ]
+    }
+}

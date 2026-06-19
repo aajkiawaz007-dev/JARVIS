@@ -1,0 +1,109 @@
+{
+    "module": "Law Case Handler",
+
+    "resources": {
+
+        "models": [
+
+            "bert",
+            "distilbert",
+            "legal-bert",
+            "roberta",
+            "sentence-transformer-local",
+            "fasttext",
+            "word2vec"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "transformers",
+            "tokenizers",
+            "sentencepiece",
+            "numpy",
+            "scipy",
+            "pandas",
+            "regex",
+            "nltk",
+            "spacy",
+            "gensim",
+            "networkx",
+            "scikit-learn",
+            "rank-bm25",
+            "whoosh",
+            "faiss-cpu",
+            "pymupdf",
+            "pdfplumber",
+            "pypdf",
+            "python-docx",
+            "openpyxl",
+            "reportlab",
+            "pytesseract",
+            "easyocr",
+            "opencv-python",
+            "pillow",
+            "sqlite3",
+            "sqlalchemy",
+            "pyyaml",
+            "toml",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "cases",
+            "clients",
+            "advocates",
+            "courts",
+            "petitions",
+            "evidence",
+            "documents",
+            "laws",
+            "sections",
+            "judgments",
+            "notices",
+            "hearings",
+            "history",
+            "logs"
+        ],
+
+        "assets": [
+
+            "case_templates",
+            "petition_templates",
+            "notice_templates",
+            "agreement_templates",
+            "affidavit_templates",
+            "legal_documents",
+            "court_orders",
+            "evidence_files",
+            "signatures",
+            "stamps",
+            "exports",
+            "backups"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "cpu",
+            "gpu",
+            "ram",
+            "storage",
+            "display",
+            "keyboard",
+            "mouse",
+            "scanner",
+            "printer",
+            "microphone"
+        ]
+    }
+}

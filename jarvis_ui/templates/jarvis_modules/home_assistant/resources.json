@@ -1,0 +1,104 @@
+{
+    "module": "Home Assistant",
+
+    "resources": {
+
+        "models": [
+
+            "whisper",
+            "vosk",
+            "silero-vad",
+            "bert",
+            "distilbert",
+            "mobilenet",
+            "yolov8",
+            "resnet50"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "numpy",
+            "scipy",
+            "pandas",
+            "opencv-python",
+            "pillow",
+            "sounddevice",
+            "soundfile",
+            "pyaudio",
+            "pydub",
+            "librosa",
+            "vosk",
+            "pyttsx3",
+            "speechrecognition",
+            "pyserial",
+            "gpiozero",
+            "RPi.GPIO",
+            "psutil",
+            "sqlite3",
+            "sqlalchemy",
+            "schedule",
+            "apscheduler",
+            "pyyaml",
+            "toml",
+            "tqdm",
+            "rich",
+            "networkx",
+            "matplotlib"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "users",
+            "profiles",
+            "devices",
+            "rooms",
+            "commands",
+            "events",
+            "logs",
+            "notifications",
+            "settings",
+            "schedules"
+        ],
+
+        "assets": [
+
+            "voices",
+            "wake_words",
+            "sound_effects",
+            "icons",
+            "themes",
+            "device_profiles",
+            "automation_rules",
+            "logs",
+            "backups",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "microphone",
+            "speaker",
+            "camera",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage",
+            "wifi_adapter",
+            "bluetooth_adapter",
+            "gpio_controller",
+            "temperature_sensor",
+            "motion_sensor",
+            "light_sensor",
+            "relay_module"
+        ]
+    }
+}

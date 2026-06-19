@@ -1,0 +1,134 @@
+{
+    "module": "Truster",
+
+    "resources": {
+
+        "models": [
+
+            "bert",
+            "distilbert",
+            "roberta",
+            "albert",
+            "fasttext",
+            "word2vec",
+            "sentence-transformer-local",
+            "whisper",
+            "vosk",
+            "silero-vad",
+            "wav2vec2",
+            "yolov8",
+            "mobilenet",
+            "resnet50",
+            "clip"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "torchaudio",
+            "transformers",
+            "tokenizers",
+            "sentencepiece",
+            "numpy",
+            "scipy",
+            "pandas",
+            "opencv-python",
+            "pillow",
+            "easyocr",
+            "pytesseract",
+            "moviepy",
+            "ffmpeg-python",
+            "imageio",
+            "imageio-ffmpeg",
+            "librosa",
+            "soundfile",
+            "sounddevice",
+            "pyaudio",
+            "pydub",
+            "speechrecognition",
+            "pyttsx3",
+            "nltk",
+            "spacy",
+            "gensim",
+            "regex",
+            "scikit-learn",
+            "faiss-cpu",
+            "networkx",
+            "matplotlib",
+            "sqlite3",
+            "sqlalchemy",
+            "fastapi",
+            "uvicorn",
+            "websockets",
+            "python-socketio",
+            "watchdog",
+            "psutil",
+            "onnxruntime",
+            "pyyaml",
+            "toml",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "users",
+            "profiles",
+            "posts",
+            "comments",
+            "likes",
+            "shares",
+            "hashtags",
+            "followers",
+            "following",
+            "messages",
+            "notifications",
+            "communities",
+            "bookmarks",
+            "history",
+            "settings",
+            "media"
+        ],
+
+        "assets": [
+
+            "images",
+            "videos",
+            "audio",
+            "avatars",
+            "emojis",
+            "stickers",
+            "themes",
+            "icons",
+            "fonts",
+            "backgrounds",
+            "stories",
+            "short_videos",
+            "voice_notes",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "camera",
+            "microphone",
+            "speaker",
+            "display",
+            "keyboard",
+            "mouse",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage",
+            "network_adapter"
+        ]
+    }
+}

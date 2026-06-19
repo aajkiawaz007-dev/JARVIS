@@ -1,0 +1,128 @@
+{
+    "module": "NGO System",
+
+    "resources": {
+
+        "models": [
+
+            "bert",
+            "distilbert",
+            "roberta",
+            "albert",
+            "fasttext",
+            "word2vec",
+            "sentence-transformer-local",
+            "whisper",
+            "vosk",
+            "silero-vad",
+            "east-text-detector",
+            "dbnet"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "numpy",
+            "scipy",
+            "pandas",
+            "opencv-python",
+            "pillow",
+            "easyocr",
+            "pytesseract",
+            "transformers",
+            "tokenizers",
+            "sentencepiece",
+            "nltk",
+            "spacy",
+            "gensim",
+            "regex",
+            "scikit-learn",
+            "faiss-cpu",
+            "networkx",
+            "matplotlib",
+            "python-docx",
+            "openpyxl",
+            "python-pptx",
+            "reportlab",
+            "pymupdf",
+            "pdfplumber",
+            "pypdf",
+            "sqlite3",
+            "sqlalchemy",
+            "schedule",
+            "apscheduler",
+            "psutil",
+            "watchdog",
+            "pyyaml",
+            "toml",
+            "onnxruntime",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "members",
+            "volunteers",
+            "donors",
+            "donations",
+            "beneficiaries",
+            "projects",
+            "campaigns",
+            "events",
+            "meetings",
+            "tasks",
+            "documents",
+            "accounts",
+            "inventory",
+            "history",
+            "reports",
+            "settings",
+            "logs"
+        ],
+
+        "assets": [
+
+            "forms",
+            "id_cards",
+            "certificates",
+            "letters",
+            "reports",
+            "receipts",
+            "images",
+            "videos",
+            "audio",
+            "icons",
+            "logos",
+            "templates",
+            "signatures",
+            "stamps",
+            "backups",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "display",
+            "keyboard",
+            "mouse",
+            "microphone",
+            "speaker",
+            "camera",
+            "scanner",
+            "printer",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage"
+        ]
+    }
+}

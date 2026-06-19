@@ -1,0 +1,102 @@
+{
+    "module": "Cleaning Robot",
+
+    "capabilities": [
+
+        "autonomous_cleaning",
+        "room_mapping",
+        "slam_navigation",
+        "path_planning",
+        "obstacle_detection",
+        "obstacle_avoidance",
+        "edge_detection",
+        "cliff_detection",
+
+        "vacuum_cleaning",
+        "mopping",
+        "sweeping",
+        "spot_cleaning",
+        "deep_cleaning",
+        "scheduled_cleaning",
+
+        "dust_detection",
+        "dirt_detection",
+        "surface_detection",
+        "carpet_detection",
+        "floor_type_recognition",
+
+        "computer_vision",
+        "object_detection",
+        "image_understanding",
+        "sensor_processing",
+
+        "lidar_support",
+        "camera_support",
+        "ultrasonic_sensor_support",
+        "infrared_sensor_support",
+
+        "multi_room_cleaning",
+        "zone_cleaning",
+        "restricted_area_management",
+        "virtual_wall_support",
+
+        "battery_monitoring",
+        "auto_charging",
+        "charging_station_navigation",
+        "power_management",
+
+        "water_tank_monitoring",
+        "dustbin_monitoring",
+        "maintenance_alerts",
+        "filter_health_monitoring",
+
+        "voice_commands",
+        "speech_to_text",
+        "text_to_speech",
+        "ai_voice_assistant",
+
+        "mobile_app_control",
+        "remote_control",
+        "dashboard_integration",
+
+        "real_time_tracking",
+        "cleaning_history",
+        "analytics_dashboard",
+        "performance_monitoring",
+
+        "task_management",
+        "schedule_management",
+        "calendar_integration",
+        "reminder_system",
+
+        "home_assistant_integration",
+        "ai_core_integration",
+        "iot_device_integration",
+
+        "wifi_connectivity",
+        "bluetooth_connectivity",
+        "cloud_sync",
+        "offline_mode",
+
+        "backup_management",
+        "restore_management",
+
+        "security_management",
+        "user_authentication",
+        "role_management",
+        "activity_logging",
+
+        "robot_health_monitoring",
+        "self_diagnostics",
+        "error_detection",
+        "error_recovery",
+
+        "firmware_updates",
+        "plugin_support",
+        "api_integration",
+
+        "future_module_support",
+        "cross_platform_support",
+        "pc_phone_sync"
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "module": "Weather Assistant",
+
+    "resources": {
+
+        "models": [
+
+            "bert",
+            "distilbert",
+            "roberta",
+            "fasttext",
+            "word2vec",
+            "sentence-transformer-local",
+            "yolov8",
+            "mobilenet",
+            "resnet50"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "numpy",
+            "scipy",
+            "pandas",
+            "matplotlib",
+            "networkx",
+            "opencv-python",
+            "pillow",
+            "scikit-learn",
+            "sqlite3",
+            "sqlalchemy",
+            "schedule",
+            "apscheduler",
+            "psutil",
+            "watchdog",
+            "pyyaml",
+            "toml",
+            "onnxruntime",
+            "rich",
+            "tqdm",
+            "geopy",
+            "pyproj",
+            "shapely",
+            "geopandas",
+            "rasterio",
+            "fiona"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "weather_records",
+            "forecasts",
+            "locations",
+            "temperature_history",
+            "humidity_history",
+            "wind_history",
+            "rainfall_history",
+            "alerts",
+            "seasons",
+            "history",
+            "settings"
+        ],
+
+        "assets": [
+
+            "weather_icons",
+            "radar_maps",
+            "satellite_images",
+            "climate_data",
+            "charts",
+            "graphs",
+            "voice_reports",
+            "notifications",
+            "templates",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "display",
+            "speaker",
+            "microphone",
+            "temperature_sensor",
+            "humidity_sensor",
+            "pressure_sensor",
+            "wind_sensor",
+            "rain_sensor",
+            "gps_receiver",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage"
+        ]
+    }
+}

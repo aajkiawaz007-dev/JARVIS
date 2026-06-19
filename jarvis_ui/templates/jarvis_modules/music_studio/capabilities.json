@@ -1,0 +1,15 @@
+{
+    "module": "Music Studio",
+
+    "capabilities": [
+
+        "music_generation",
+
+        "audio_editing",
+
+        "voice_processing",
+
+        "background_music_creation"
+
+    ]
+}

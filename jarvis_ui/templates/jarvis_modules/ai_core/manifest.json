@@ -1,0 +1,13 @@
+{
+  "module_id": "ai_core",
+  "module_name": "AI Core",
+  "version": "1.0.0",
+  "build": "001",
+  "status": "ACTIVE",
+  "health": "HEALTHY",
+  "category": "Creative",
+  "author": "JARVIS",
+  "route": "/ai-core",
+  "html_file": "ai_core.html",
+  "last_updated": "2026-06-12"
+}

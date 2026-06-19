@@ -1,0 +1,31 @@
+{
+    "module": "Picture Editor",
+
+    "capabilities": [
+
+        "image_editing",
+
+        "image_enhancement",
+
+        "background_removal",
+
+        "image_resizing",
+
+        "cropping",
+
+        "color_correction",
+
+        "filter_application",
+
+        "text_overlay",
+
+        "watermark_addition",
+
+        "image_format_conversion",
+
+        "portrait_retouching",
+
+        "ai_image_generation"
+
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "module": "Cleaning Robot",
+
+    "resources": {
+
+        "models": [
+
+            "yolov8",
+            "mobilenet",
+            "resnet50",
+            "efficientnet",
+            "sam",
+            "u2net",
+            "fasttext",
+            "word2vec",
+            "bert",
+            "distilbert",
+            "whisper",
+            "vosk",
+            "silero-vad"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "torchaudio",
+            "opencv-python",
+            "numpy",
+            "scipy",
+            "pandas",
+            "pillow",
+            "scikit-image",
+            "onnxruntime",
+            "matplotlib",
+            "networkx",
+            "scikit-learn",
+            "sounddevice",
+            "soundfile",
+            "pyaudio",
+            "pydub",
+            "librosa",
+            "speechrecognition",
+            "pyttsx3",
+            "vosk",
+            "pyserial",
+            "gpiozero",
+            "RPi.GPIO",
+            "pigpio",
+            "pyyaml",
+            "toml",
+            "sqlite3",
+            "sqlalchemy",
+            "schedule",
+            "apscheduler",
+            "psutil",
+            "watchdog",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "maps",
+            "rooms",
+            "obstacles",
+            "cleaning_tasks",
+            "schedules",
+            "routes",
+            "battery_logs",
+            "sensor_logs",
+            "history",
+            "settings"
+        ],
+
+        "assets": [
+
+            "room_maps",
+            "voice_commands",
+            "cleaning_profiles",
+            "navigation_data",
+            "icons",
+            "themes",
+            "logs",
+            "backups",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "camera",
+            "microphone",
+            "speaker",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage",
+            "lidar_sensor",
+            "ultrasonic_sensor",
+            "infrared_sensor",
+            "imu_sensor",
+            "temperature_sensor",
+            "wheel_encoder",
+            "motor_driver",
+            "vacuum_motor",
+            "water_pump",
+            "brush_motor",
+            "battery_management_system",
+            "charging_dock",
+            "wifi_adapter",
+            "bluetooth_adapter",
+            "gpio_controller"
+        ]
+    }
+}

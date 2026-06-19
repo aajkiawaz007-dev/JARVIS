@@ -1,0 +1,102 @@
+{
+    "module": "Game Center",
+
+    "resources": {
+
+        "models": [
+
+            "yolov8",
+            "mobilenet",
+            "resnet50",
+            "efficientnet",
+            "word2vec",
+            "fasttext"
+        ],
+
+        "libraries": [
+
+            "pygame",
+            "pyglet",
+            "arcade",
+            "moderngl",
+            "moderngl-window",
+            "numpy",
+            "scipy",
+            "pillow",
+            "opencv-python",
+            "imageio",
+            "imageio-ffmpeg",
+            "moviepy",
+            "soundfile",
+            "pydub",
+            "librosa",
+            "matplotlib",
+            "networkx",
+            "torch",
+            "torchvision",
+            "onnxruntime",
+            "numba",
+            "cython",
+            "sqlite3",
+            "sqlalchemy",
+            "tqdm",
+            "psutil",
+            "pyyaml",
+            "toml",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "games",
+            "players",
+            "profiles",
+            "scores",
+            "achievements",
+            "levels",
+            "leaderboards",
+            "settings",
+            "save_data"
+        ],
+
+        "assets": [
+
+            "sprites",
+            "textures",
+            "characters",
+            "maps",
+            "backgrounds",
+            "icons",
+            "animations",
+            "audio",
+            "music",
+            "sound_effects",
+            "fonts",
+            "shaders",
+            "save_files",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "keyboard",
+            "mouse",
+            "gamepad",
+            "speaker",
+            "microphone",
+            "camera",
+            "gpu",
+            "cpu",
+            "ram",
+            "storage",
+            "display"
+        ]
+    }
+}

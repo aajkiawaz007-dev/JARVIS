@@ -1,0 +1,94 @@
+{
+    "module": "Home Assistant",
+
+    "capabilities": [
+
+        "smart_home_control",
+        "voice_assistant",
+        "speech_to_text",
+        "text_to_speech",
+        "natural_language_commands",
+
+        "light_control",
+        "fan_control",
+        "ac_control",
+        "tv_control",
+        "appliance_control",
+
+        "wifi_device_management",
+        "iot_device_management",
+        "bluetooth_device_control",
+
+        "security_monitoring",
+        "cctv_monitoring",
+        "motion_detection",
+        "door_lock_control",
+        "visitor_management",
+        "intrusion_detection",
+
+        "alarm_management",
+        "emergency_alerts",
+        "fire_detection",
+        "smoke_detection",
+        "gas_leak_detection",
+
+        "electricity_monitoring",
+        "power_usage_analysis",
+        "water_usage_monitoring",
+
+        "weather_information",
+        "calendar_management",
+        "reminder_system",
+        "task_management",
+        "shopping_list_management",
+
+        "recipe_assistance",
+        "meal_planning",
+        "grocery_management",
+
+        "music_playback",
+        "video_playback",
+        "media_library_management",
+
+        "family_member_management",
+        "contact_management",
+        "phone_call_assistance",
+        "message_management",
+
+        "health_reminders",
+        "medicine_reminders",
+        "sleep_tracking",
+
+        "pet_management",
+        "plant_care_assistance",
+
+        "cleaning_schedule_management",
+        "maintenance_tracking",
+
+        "map_integration",
+        "location_tracking",
+
+        "cloud_sync",
+        "offline_mode",
+        "backup_management",
+        "restore_management",
+
+        "ai_chat_assistance",
+        "knowledge_base",
+        "memory_integration",
+        "dashboard_integration",
+
+        "api_integration",
+        "automation_rules",
+        "workflow_automation",
+
+        "pc_phone_sync",
+        "cross_platform_support",
+
+        "security_management",
+        "user_authentication",
+        "role_management",
+        "activity_logging",
+        "audit_trail"
+    ]
+}

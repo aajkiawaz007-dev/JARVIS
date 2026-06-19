@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <style>
+        body { font-family: Arial; background:#111; color:white; padding:20px;}
+        table { width:100%; border-collapse:collapse; margin-top:20px;}
+        th, td { padding:10px; border:1px solid #333; text-align:center;}
+        th { background:#222;}
+        a { padding:6px 12px; text-decoration:none; border-radius:5px;}
+        .approve { background:limegreen; color:black;}
+        .reject { background:red; color:white;}
+        .logout { background:orange; color:black; float:right; padding:8px 15px;}
+    </style>
+</head>
+<body>
+
+    <h2>Admin Dashboard (Approval Panel)</h2>
+    <a class="logout" href="/logout">Logout</a>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Status</th>
+            <th>Created By</th>
+            <th>Created At</th>
+            <th>Actions</th>
+        </tr>
+
+        {% for r in requests %}
+        <tr>
+            <td>{{r.id}}</td>
+            <td>{{r.title}}</td>
+            <td>{{r.status}}</td>
+            <td>{{r.created_by}}</td>
+            <td>{{r.created_at}}</td>
+    <td>
+        <a class="approve" href="/admin/approve/{{r.id}}">Approve</a>
+        <a class="reject" href="/admin/reject/{{r.id}}">Reject</a>
+    </td>
+</tr>
+        {% endfor %}
+    </table>
+
+</body>
+</html>

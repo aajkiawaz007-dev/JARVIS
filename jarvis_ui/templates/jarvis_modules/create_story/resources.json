@@ -1,0 +1,97 @@
+{
+    "module": "AI Create Story",
+
+    "resources": {
+
+        "models": [
+
+            "bert",
+            "distilbert",
+            "roberta",
+            "albert",
+            "gpt2",
+            "fasttext",
+            "word2vec",
+            "sentence-transformer-local"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "transformers",
+            "tokenizers",
+            "sentencepiece",
+            "numpy",
+            "scipy",
+            "pandas",
+            "nltk",
+            "spacy",
+            "gensim",
+            "regex",
+            "scikit-learn",
+            "networkx",
+            "matplotlib",
+            "jinja2",
+            "python-docx",
+            "reportlab",
+            "pymupdf",
+            "pypdf",
+            "sqlite3",
+            "sqlalchemy",
+            "onnxruntime",
+            "pyyaml",
+            "toml",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "stories",
+            "chapters",
+            "characters",
+            "worlds",
+            "plots",
+            "dialogues",
+            "scenes",
+            "templates",
+            "history",
+            "bookmarks",
+            "exports"
+        ],
+
+        "assets": [
+
+            "story_templates",
+            "character_profiles",
+            "scene_templates",
+            "world_maps",
+            "dialogues",
+            "plots",
+            "story_books",
+            "covers",
+            "fonts",
+            "illustrations",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "display",
+            "keyboard",
+            "mouse",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage"
+        ]
+    }
+}

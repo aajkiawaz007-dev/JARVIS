@@ -1,0 +1,125 @@
+{
+    "module": "Personal Assistant",
+
+    "resources": {
+
+        "models": [
+
+            "bert",
+            "distilbert",
+            "roberta",
+            "albert",
+            "fasttext",
+            "word2vec",
+            "sentence-transformer-local",
+            "whisper",
+            "vosk",
+            "silero-vad",
+            "wav2vec2",
+            "yolov8",
+            "mobilenet",
+            "resnet50"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "torchaudio",
+            "numpy",
+            "scipy",
+            "pandas",
+            "opencv-python",
+            "pillow",
+            "librosa",
+            "soundfile",
+            "sounddevice",
+            "pyaudio",
+            "pydub",
+            "vosk",
+            "speechrecognition",
+            "pyttsx3",
+            "transformers",
+            "tokenizers",
+            "sentencepiece",
+            "nltk",
+            "spacy",
+            "gensim",
+            "regex",
+            "scikit-learn",
+            "faiss-cpu",
+            "networkx",
+            "matplotlib",
+            "schedule",
+            "apscheduler",
+            "psutil",
+            "watchdog",
+            "sqlite3",
+            "sqlalchemy",
+            "onnxruntime",
+            "pyyaml",
+            "toml",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "users",
+            "profiles",
+            "contacts",
+            "calendar",
+            "tasks",
+            "notes",
+            "reminders",
+            "messages",
+            "emails",
+            "conversations",
+            "commands",
+            "history",
+            "bookmarks",
+            "favorites",
+            "settings",
+            "logs"
+        ],
+
+        "assets": [
+
+            "voices",
+            "wake_words",
+            "command_templates",
+            "conversation_templates",
+            "notes",
+            "documents",
+            "images",
+            "audio",
+            "icons",
+            "themes",
+            "backups",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "microphone",
+            "speaker",
+            "camera",
+            "display",
+            "keyboard",
+            "mouse",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage",
+            "bluetooth_adapter",
+            "wifi_adapter"
+        ]
+    }
+}

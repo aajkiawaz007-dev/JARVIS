@@ -1,0 +1,10 @@
+{
+    "module_id": "picture_editor",
+    "module_name": "Picture Editor",
+    "version": "1.0.0",
+    "build": "001",
+    "package_type": "jarvis_module",
+    "status": "ACTIVE",
+    "author": "JARVIS",
+    "installable": true
+}

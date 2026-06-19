@@ -1,0 +1,89 @@
+{
+    "module": "ID Banner Editor",
+
+    "capabilities": [
+
+        "id_card_generation",
+        "smart_id_card_generation",
+        "employee_id_card_generation",
+        "student_id_card_generation",
+        "membership_card_generation",
+        "press_card_generation",
+        "ngo_id_card_generation",
+        "political_party_id_card_generation",
+
+        "banner_generation",
+        "poster_generation",
+        "flex_design",
+        "social_media_post_generation",
+        "thumbnail_generation",
+        "logo_generation",
+        "certificate_generation",
+        "invitation_card_generation",
+
+        "template_management",
+        "custom_template_creation",
+        "batch_design_generation",
+
+        "photo_editing",
+        "background_removal",
+        "background_replacement",
+        "image_enhancement",
+        "image_upscaling",
+
+        "text_overlay",
+        "font_management",
+        "color_management",
+        "frame_management",
+        "sticker_management",
+        "watermark_addition",
+
+        "barcode_generation",
+        "qr_code_generation",
+        "serial_number_generation",
+        "unique_id_generation",
+
+        "excel_data_import",
+        "csv_data_import",
+        "bulk_id_generation",
+        "bulk_banner_generation",
+
+        "pdf_generation",
+        "image_export",
+        "png_export",
+        "jpg_export",
+        "print_layout_generation",
+        "high_resolution_export",
+
+        "ocr_text_extraction",
+        "image_to_text",
+
+        "ai_design_assistance",
+        "automatic_layout_generation",
+        "color_scheme_suggestion",
+
+        "cloud_sync",
+        "offline_mode",
+        "backup_management",
+        "restore_management",
+
+        "api_integration",
+        "plugin_support",
+
+        "voice_commands",
+        "speech_to_text",
+
+        "dashboard_integration",
+        "memory_integration",
+        "knowledge_base",
+
+        "pc_phone_sync",
+        "cross_platform_support",
+
+        "security_management",
+        "user_authentication",
+        "role_management",
+        "activity_logging",
+        "audit_trail"
+    ]
+}

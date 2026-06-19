@@ -1,0 +1,94 @@
+{
+    "module": "Language Translator",
+
+    "resources": {
+
+        "models": [
+
+            "nllb-200",
+            "m2m100",
+            "marianmt",
+            "bert",
+            "distilbert",
+            "fasttext",
+            "word2vec",
+            "whisper",
+            "vosk",
+            "silero-vad"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "transformers",
+            "tokenizers",
+            "sentencepiece",
+            "sacremoses",
+            "numpy",
+            "scipy",
+            "pandas",
+            "regex",
+            "nltk",
+            "spacy",
+            "gensim",
+            "fasttext",
+            "sounddevice",
+            "soundfile",
+            "pyaudio",
+            "pydub",
+            "librosa",
+            "vosk",
+            "pyttsx3",
+            "speechrecognition",
+            "onnxruntime",
+            "sqlite3",
+            "sqlalchemy",
+            "tqdm",
+            "pyyaml",
+            "toml",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "languages",
+            "dictionary",
+            "translations",
+            "phrases",
+            "history",
+            "favorites",
+            "settings"
+        ],
+
+        "assets": [
+
+            "voices",
+            "dictionaries",
+            "language_packs",
+            "pronunciations",
+            "examples",
+            "history",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "microphone",
+            "speaker",
+            "keyboard",
+            "display",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+moviepy
+opencv-python
+ffmpeg-python
+numpy
+pillow
+pydub
+imageio
+imageio-ffmpeg
+rich
+python-dotenv

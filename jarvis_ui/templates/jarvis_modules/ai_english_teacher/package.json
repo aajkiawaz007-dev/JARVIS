@@ -1,0 +1,10 @@
+{
+    "module_id": "ai_english_teacher",
+    "module_name": "AI English Teacher",
+    "version": "1.0.0",
+    "build": "001",
+    "package_type": "jarvis_module",
+    "status": "ACTIVE",
+    "author": "JARVIS",
+    "installable": true
+}

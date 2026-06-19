@@ -1,0 +1,120 @@
+{
+    "module": "Automation",
+
+    "resources": {
+
+        "models": [
+
+            "bert",
+            "distilbert",
+            "roberta",
+            "fasttext",
+            "word2vec",
+            "sentence-transformer-local",
+            "whisper",
+            "vosk",
+            "silero-vad",
+            "yolov8",
+            "mobilenet",
+            "resnet50"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "torchaudio",
+            "numpy",
+            "scipy",
+            "pandas",
+            "opencv-python",
+            "pillow",
+            "onnxruntime",
+            "scikit-learn",
+            "networkx",
+            "matplotlib",
+            "schedule",
+            "apscheduler",
+            "watchdog",
+            "psutil",
+            "pyautogui",
+            "pynput",
+            "keyboard",
+            "mouse",
+            "pyserial",
+            "gpiozero",
+            "RPi.GPIO",
+            "pigpio",
+            "sqlite3",
+            "sqlalchemy",
+            "sounddevice",
+            "soundfile",
+            "pyaudio",
+            "pydub",
+            "librosa",
+            "speechrecognition",
+            "pyttsx3",
+            "vosk",
+            "pyyaml",
+            "toml",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "tasks",
+            "workflows",
+            "triggers",
+            "events",
+            "actions",
+            "schedules",
+            "macros",
+            "devices",
+            "rules",
+            "history",
+            "logs",
+            "settings"
+        ],
+
+        "assets": [
+
+            "workflow_templates",
+            "scripts",
+            "macros",
+            "icons",
+            "themes",
+            "voice_commands",
+            "automation_rules",
+            "logs",
+            "backups",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "keyboard",
+            "mouse",
+            "display",
+            "microphone",
+            "speaker",
+            "camera",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage",
+            "gpio_controller",
+            "wifi_adapter",
+            "bluetooth_adapter",
+            "relay_module",
+            "sensor_array"
+        ]
+    }
+}

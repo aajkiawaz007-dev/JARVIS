@@ -1,0 +1,10 @@
+{
+    "module_id": "law_case_handler",
+    "module_name": "Law Case Handler",
+    "version": "1.0.0",
+    "build": "001",
+    "package_type": "jarvis_module",
+    "status": "ACTIVE",
+    "author": "JARVIS",
+    "installable": true
+}

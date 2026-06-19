@@ -1,0 +1,107 @@
+{
+    "module": "App Store",
+
+    "resources": {
+
+        "models": [
+
+            "bert",
+            "distilbert",
+            "roberta",
+            "albert",
+            "fasttext",
+            "word2vec",
+            "sentence-transformer-local",
+            "yolov8",
+            "mobilenet",
+            "resnet50"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "numpy",
+            "scipy",
+            "pandas",
+            "opencv-python",
+            "pillow",
+            "transformers",
+            "tokenizers",
+            "sentencepiece",
+            "nltk",
+            "spacy",
+            "gensim",
+            "regex",
+            "scikit-learn",
+            "faiss-cpu",
+            "networkx",
+            "matplotlib",
+            "sqlite3",
+            "sqlalchemy",
+            "hashlib",
+            "zipfile",
+            "tarfile",
+            "shutil",
+            "pathlib",
+            "watchdog",
+            "psutil",
+            "pyyaml",
+            "toml",
+            "onnxruntime",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "apps",
+            "categories",
+            "versions",
+            "packages",
+            "dependencies",
+            "developers",
+            "reviews",
+            "ratings",
+            "downloads",
+            "favorites",
+            "history",
+            "settings",
+            "logs"
+        ],
+
+        "assets": [
+
+            "icons",
+            "screenshots",
+            "banners",
+            "thumbnails",
+            "descriptions",
+            "categories",
+            "themes",
+            "templates",
+            "app_packages",
+            "backups",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "display",
+            "keyboard",
+            "mouse",
+            "network_adapter",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "module_id": "msz_system",
+    "module_name": "MSZ System",
+    "version": "1.0.0",
+    "build": "001",
+    "package_type": "jarvis_module",
+    "status": "ACTIVE",
+    "author": "JARVIS",
+    "installable": true
+}

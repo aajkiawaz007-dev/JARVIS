@@ -1,0 +1,97 @@
+{
+    "module": "Map Assistant",
+
+    "resources": {
+
+        "models": [
+
+            "yolov8",
+            "mobilenet",
+            "resnet50",
+            "efficientnet",
+            "sam",
+            "fasttext",
+            "word2vec",
+            "bert",
+            "distilbert"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "numpy",
+            "scipy",
+            "pandas",
+            "opencv-python",
+            "pillow",
+            "matplotlib",
+            "networkx",
+            "geopy",
+            "pyproj",
+            "shapely",
+            "folium",
+            "geopandas",
+            "rasterio",
+            "fiona",
+            "osmnx",
+            "rtree",
+            "sqlite3",
+            "sqlalchemy",
+            "pyyaml",
+            "toml",
+            "onnxruntime",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "maps",
+            "locations",
+            "routes",
+            "waypoints",
+            "addresses",
+            "landmarks",
+            "offline_tiles",
+            "regions",
+            "history",
+            "favorites",
+            "bookmarks"
+        ],
+
+        "assets": [
+
+            "map_tiles",
+            "satellite_images",
+            "terrain_maps",
+            "road_maps",
+            "poi_icons",
+            "markers",
+            "route_templates",
+            "voice_guides",
+            "navigation_data",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "gps_receiver",
+            "display",
+            "speaker",
+            "microphone",
+            "camera",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage"
+        ]
+    }
+}

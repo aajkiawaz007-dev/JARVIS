@@ -1,0 +1,114 @@
+{
+    "module": "AI English Teacher",
+
+    "resources": {
+
+        "models": [
+
+            "bert",
+            "distilbert",
+            "roberta",
+            "fasttext",
+            "word2vec",
+            "sentence-transformer-local",
+            "whisper",
+            "vosk",
+            "silero-vad",
+            "wav2vec2"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchaudio",
+            "torchvision",
+            "transformers",
+            "tokenizers",
+            "sentencepiece",
+            "numpy",
+            "scipy",
+            "pandas",
+            "nltk",
+            "spacy",
+            "gensim",
+            "regex",
+            "scikit-learn",
+            "pyspellchecker",
+            "language-tool-python",
+            "pronouncing",
+            "phonemizer",
+            "librosa",
+            "soundfile",
+            "sounddevice",
+            "pyaudio",
+            "pydub",
+            "vosk",
+            "speechrecognition",
+            "pyttsx3",
+            "matplotlib",
+            "networkx",
+            "sqlite3",
+            "sqlalchemy",
+            "onnxruntime",
+            "pyyaml",
+            "toml",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "users",
+            "lessons",
+            "vocabulary",
+            "grammar_rules",
+            "conversations",
+            "pronunciations",
+            "quizzes",
+            "flashcards",
+            "translations",
+            "progress",
+            "history",
+            "bookmarks"
+        ],
+
+        "assets": [
+
+            "voice_samples",
+            "audio_lessons",
+            "grammar_books",
+            "dictionaries",
+            "pronunciation_guides",
+            "conversation_examples",
+            "worksheets",
+            "flashcards",
+            "quizzes",
+            "images",
+            "videos",
+            "exports"
+        ],
+        
+        "storage": [
+
+    "module_data.json"
+
+],
+
+        "apis": [],
+
+        "hardware": [
+
+            "microphone",
+            "speaker",
+            "headphones",
+            "display",
+            "keyboard",
+            "mouse",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage"
+        ]
+    }
+}

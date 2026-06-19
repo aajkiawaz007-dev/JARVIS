@@ -1,0 +1,123 @@
+{
+    "module": "AI Notepad",
+
+    "resources": {
+
+        "models": [
+
+            "bert",
+            "distilbert",
+            "roberta",
+            "albert",
+            "gpt2",
+            "fasttext",
+            "word2vec",
+            "sentence-transformer-local",
+            "east-text-detector",
+            "dbnet"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "transformers",
+            "tokenizers",
+            "sentencepiece",
+            "numpy",
+            "scipy",
+            "pandas",
+            "nltk",
+            "spacy",
+            "gensim",
+            "regex",
+            "scikit-learn",
+            "faiss-cpu",
+            "networkx",
+            "matplotlib",
+            "easyocr",
+            "pytesseract",
+            "opencv-python",
+            "pillow",
+            "python-docx",
+            "openpyxl",
+            "python-pptx",
+            "reportlab",
+            "pymupdf",
+            "pdfplumber",
+            "pypdf",
+            "sqlite3",
+            "sqlalchemy",
+            "watchdog",
+            "psutil",
+            "hashlib",
+            "pathlib",
+            "zipfile",
+            "threading",
+            "asyncio",
+            "queue",
+            "logging",
+            "json",
+            "pickle",
+            "yaml",
+            "toml",
+            "configparser",
+            "rich",
+            "tqdm"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "notes",
+            "folders",
+            "tags",
+            "documents",
+            "templates",
+            "reminders",
+            "bookmarks",
+            "history",
+            "versions",
+            "settings",
+            "backups",
+            "logs"
+        ],
+
+        "assets": [
+
+            "notes",
+            "documents",
+            "templates",
+            "fonts",
+            "icons",
+            "themes",
+            "images",
+            "tables",
+            "charts",
+            "attachments",
+            "exports",
+            "backups"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "cpu",
+            "gpu",
+            "ram",
+            "storage",
+            "display",
+            "keyboard",
+            "mouse",
+            "microphone",
+            "speaker",
+            "scanner",
+            "printer"
+        ]
+    }
+}

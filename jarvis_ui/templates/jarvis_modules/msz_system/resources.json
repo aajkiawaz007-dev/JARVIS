@@ -1,0 +1,145 @@
+{
+    "module": "MSZ System",
+
+    "resources": {
+
+        "models": [
+
+            "bert",
+            "distilbert",
+            "roberta",
+            "albert",
+            "fasttext",
+            "word2vec",
+            "sentence-transformer-local",
+            "whisper",
+            "vosk",
+            "silero-vad",
+            "wav2vec2",
+            "yolov8",
+            "mobilenet",
+            "resnet50",
+            "clip"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "torchaudio",
+            "numpy",
+            "scipy",
+            "pandas",
+            "opencv-python",
+            "pillow",
+            "easyocr",
+            "pytesseract",
+            "moviepy",
+            "ffmpeg-python",
+            "imageio",
+            "imageio-ffmpeg",
+            "librosa",
+            "soundfile",
+            "sounddevice",
+            "pyaudio",
+            "pydub",
+            "speechrecognition",
+            "pyttsx3",
+            "transformers",
+            "tokenizers",
+            "sentencepiece",
+            "nltk",
+            "spacy",
+            "gensim",
+            "regex",
+            "scikit-learn",
+            "faiss-cpu",
+            "networkx",
+            "matplotlib",
+            "sqlite3",
+            "sqlalchemy",
+            "fastapi",
+            "uvicorn",
+            "websockets",
+            "python-socketio",
+            "watchdog",
+            "psutil",
+            "onnxruntime",
+            "pyyaml",
+            "toml",
+            "tqdm",
+            "rich",
+            "cryptography",
+            "bcrypt",
+            "pyjwt"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "users",
+            "profiles",
+            "contacts",
+            "groups",
+            "channels",
+            "messages",
+            "voice_messages",
+            "video_messages",
+            "calls",
+            "video_calls",
+            "stories",
+            "status",
+            "stickers",
+            "emojis",
+            "media",
+            "files",
+            "notifications",
+            "favorites",
+            "blocked_users",
+            "history",
+            "settings"
+        ],
+
+        "assets": [
+
+            "images",
+            "videos",
+            "audio",
+            "documents",
+            "stickers",
+            "emojis",
+            "avatars",
+            "themes",
+            "backgrounds",
+            "icons",
+            "fonts",
+            "stories",
+            "status",
+            "voice_notes",
+            "ringtones",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "camera",
+            "microphone",
+            "speaker",
+            "display",
+            "keyboard",
+            "mouse",
+            "network_adapter",
+            "bluetooth_adapter",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage"
+        ]
+    }
+}

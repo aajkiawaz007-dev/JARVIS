@@ -1,0 +1,106 @@
+{
+    "module": "Create Picture",
+
+    "resources": {
+
+        "models": [
+
+            "stable-diffusion",
+            "sdxl",
+            "u2net",
+            "sam",
+            "real-esrgan",
+            "gfpgan",
+            "yolov8",
+            "mobilenet",
+            "resnet50",
+            "efficientnet",
+            "clip",
+            "blip",
+            "east-text-detector",
+            "dbnet"
+        ],
+
+        "libraries": [
+
+            "torch",
+            "torchvision",
+            "diffusers",
+            "transformers",
+            "tokenizers",
+            "numpy",
+            "scipy",
+            "pandas",
+            "opencv-python",
+            "pillow",
+            "scikit-image",
+            "albumentations",
+            "imageio",
+            "imageio-ffmpeg",
+            "matplotlib",
+            "easyocr",
+            "pytesseract",
+            "onnxruntime",
+            "networkx",
+            "scikit-learn",
+            "sqlite3",
+            "sqlalchemy",
+            "pyyaml",
+            "toml",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "projects",
+            "images",
+            "prompts",
+            "styles",
+            "templates",
+            "history",
+            "favorites",
+            "exports"
+        ],
+
+        "assets": [
+
+            "images",
+            "backgrounds",
+            "textures",
+            "frames",
+            "brushes",
+            "stickers",
+            "icons",
+            "fonts",
+            "logos",
+            "watermarks",
+            "filters",
+            "effects",
+            "overlays",
+            "templates",
+            "styles",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "camera",
+            "scanner",
+            "display",
+            "keyboard",
+            "mouse",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage"
+        ]
+    }
+}

@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>JARVIS AI SYSTEM</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    overflow:hidden;
+    background:#020817;
+    font-family:Arial;
+    color:white;
+}
+
+/* ================= BACKGROUND GRID ================= */
+
+.background-grid{
+
+    position:absolute;
+    width:100%;
+    height:100%;
+
+    background-image:
+    linear-gradient(rgba(0,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,255,255,0.05) 1px, transparent 1px);
+
+    background-size:40px 40px;
+}
+
+/* ================= CENTER CORE ================= */
+
+.center-core{
+
+    position:absolute;
+
+    top:50%;
+    left:50%;
+
+    transform:translate(-50%, -50%);
+
+    width:320px;
+    height:320px;
+
+    border-radius:50%;
+
+    border:3px solid #00e5ff;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+
+    box-shadow:
+    0 0 20px #00e5ff,
+    0 0 60px #00e5ff;
+
+    animation:corePulse 4s infinite;
+}
+
+.center-core::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:430px;
+    height:430px;
+
+    border-radius:50%;
+
+    border:2px dashed rgba(0,229,255,0.3);
+
+    animation:rotateRing 25s linear infinite;
+}
+
+.jarvis-title{
+
+    font-size:55px;
+    font-weight:bold;
+
+    color:#00e5ff;
+
+    text-shadow:
+    0 0 15px #00e5ff,
+    0 0 35px #00e5ff;
+}
+
+.status{
+
+    margin-top:15px;
+    color:#7dd3fc;
+    letter-spacing:3px;
+}
+
+/* ================= ORBIT ================= */
+
+.orbit{
+
+    position:absolute;
+
+    top:50%;
+    left:50%;
+
+    transform:translate(-50%, -50%);
+
+    width:1300px;
+    height:1300px;
+
+    border-radius:50%;
+}
+
+/* ================= MODULE ================= */
+
+.module{
+
+    position:absolute;
+
+    width:120px;
+    height:120px;
+
+    border-radius:50%;
+
+    background:rgba(0,255,255,0.08);
+
+    border:2px solid rgba(0,255,255,0.5);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    padding:12px;
+
+    cursor:pointer;
+
+    transition:0.4s;
+
+    backdrop-filter:blur(6px);
+
+    box-shadow:
+    0 0 15px rgba(0,255,255,0.4);
+}
+
+.module:hover{
+
+    transform:scale(1.15);
+
+    background:#00e5ff;
+
+    color:black;
+
+    box-shadow:
+    0 0 20px #00e5ff,
+    0 0 60px #00e5ff;
+}
+
+.module span{
+
+    font-size:13px;
+    line-height:18px;
+    font-weight:bold;
+}
+
+/* ================= ANIMATION ================= */
+
+@keyframes rotateRing{
+
+    from{
+        transform:rotate(0deg);
+    }
+
+    to{
+        transform:rotate(360deg);
+    }
+}
+/* ================= HUD PANEL ================= */
+
+.hud-panel{
+
+    position:absolute;
+
+    top:20px;
+    right:20px;
+
+    width:250px;
+
+    padding:20px;
+
+    border-radius:20px;
+
+    background:rgba(0,255,255,0.05);
+
+    border:1px solid rgba(0,255,255,0.3);
+
+    backdrop-filter:blur(6px);
+
+    box-shadow:
+    0 0 20px rgba(0,255,255,0.2);
+}
+
+.hud-panel div{
+
+    margin:12px 0;
+
+    color:#7dd3fc;
+
+    font-size:15px;
+}
+
+/* ================= PARTICLES ================= */
+
+.particles span{
+
+    position:absolute;
+
+    width:4px;
+    height:4px;
+
+    background:#00e5ff;
+
+    border-radius:50%;
+
+    animation:floatParticle 10s linear infinite;
+}
+
+.particles span:nth-child(1){
+    top:10%;
+    left:20%;
+    animation-duration:8s;
+}
+
+.particles span:nth-child(2){
+    top:30%;
+    left:80%;
+    animation-duration:12s;
+}
+
+.particles span:nth-child(3){
+    top:70%;
+    left:10%;
+    animation-duration:10s;
+}
+
+.particles span:nth-child(4){
+    top:90%;
+    left:60%;
+    animation-duration:14s;
+}
+
+.particles span:nth-child(5){
+    top:40%;
+    left:40%;
+    animation-duration:9s;
+}
+
+.particles span:nth-child(6){
+    top:60%;
+    left:75%;
+    animation-duration:11s;
+}
+
+.particles span:nth-child(7){
+    top:15%;
+    left:55%;
+    animation-duration:13s;
+}
+
+.particles span:nth-child(8){
+    top:85%;
+    left:35%;
+    animation-duration:7s;
+}
+
+/* ================= VOICE WAVE ================= */
+
+.voice-wave{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:flex-end;
+
+    margin-top:20px;
+
+    height:40px;
+}
+
+.voice-wave span{
+
+    width:6px;
+
+    margin:0 3px;
+
+    background:#00e5ff;
+
+    border-radius:10px;
+
+    animation:voiceWave 1s infinite ease-in-out;
+}
+
+.voice-wave span:nth-child(1){
+    animation-delay:0s;
+}
+
+.voice-wave span:nth-child(2){
+    animation-delay:0.2s;
+}
+
+.voice-wave span:nth-child(3){
+    animation-delay:0.4s;
+}
+
+.voice-wave span:nth-child(4){
+    animation-delay:0.6s;
+}
+
+.voice-wave span:nth-child(5){
+    animation-delay:0.8s;
+}
+
+/* ================= ANIMATIONS ================= */
+
+@keyframes floatParticle{
+
+    0%{
+        transform:translateY(0px);
+        opacity:0;
+    }
+
+    50%{
+        opacity:1;
+    }
+
+    100%{
+        transform:translateY(-120px);
+        opacity:0;
+    }
+}
+
+@keyframes voiceWave{
+
+    0%{
+        height:10px;
+    }
+
+    50%{
+        height:35px;
+    }
+
+    100%{
+        height:10px;
+    }
+}
+@keyframes corePulse{
+
+    0%{
+        box-shadow:
+        0 0 20px #00e5ff,
+        0 0 50px #00e5ff;
+    }
+
+    50%{
+        box-shadow:
+        0 0 40px #00e5ff,
+        0 0 100px #00e5ff;
+    }
+
+    100%{
+        box-shadow:
+        0 0 20px #00e5ff,
+        0 0 50px #00e5ff;
+    }
+}
+
+/* ================= AI CHAT PANEL ================= */
+
+#jarvis-chat-panel{
+
+    position:absolute;
+
+    left:20px;
+    bottom:20px;
+
+    width:380px;
+    height:500px;
+
+    background:
+    rgba(0,0,0,0.45);
+
+    border:
+    1px solid rgba(0,229,255,0.3);
+
+    border-radius:20px;
+
+    backdrop-filter:blur(10px);
+
+    overflow:hidden;
+
+    box-shadow:
+    0 0 20px rgba(0,229,255,0.2);
+
+    z-index:999;
+}
+
+.chat-header{
+
+    padding:18px;
+
+    background:
+    rgba(0,229,255,0.08);
+
+    color:#00e5ff;
+
+    font-weight:bold;
+
+    letter-spacing:2px;
+
+    border-bottom:
+    1px solid rgba(0,229,255,0.2);
+}
+
+#chat-messages{
+
+    height:360px;
+
+    overflow-y:auto;
+
+    padding:15px;
+}
+
+.ai-message,
+.user-message{
+
+    padding:12px 15px;
+
+    margin-bottom:15px;
+
+    border-radius:12px;
+
+    font-size:14px;
+
+    line-height:22px;
+
+    animation:fadeChat 0.3s ease;
+}
+
+.ai-message{
+
+    background:
+    rgba(0,229,255,0.08);
+
+    color:#7dd3fc;
+
+    border:
+    1px solid rgba(0,229,255,0.15);
+}
+
+.user-message{
+
+    background:
+    rgba(255,255,255,0.06);
+
+    color:white;
+
+    text-align:right;
+}
+
+.chat-input-area{
+
+    position:absolute;
+
+    bottom:0;
+
+    width:100%;
+
+    display:flex;
+
+    border-top:
+    1px solid rgba(0,229,255,0.2);
+}
+
+#chat-input{
+
+    flex:1;
+
+    padding:16px;
+
+    background:transparent;
+
+    border:none;
+
+    outline:none;
+
+    color:white;
+
+    font-size:14px;
+}
+
+.chat-input-area button{
+
+    width:100px;
+
+    border:none;
+
+    background:#00e5ff;
+
+    color:black;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.chat-input-area button:hover{
+
+    background:white;
+}
+
+@keyframes fadeChat{
+
+    from{
+
+        opacity:0;
+        transform:translateY(10px);
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0px);
+    }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="background-grid"></div>
+<!-- ================= HUD PANEL ================= -->
+
+<div class="hud-panel">
+
+    <div id="live-time">
+        TIME --:--:--
+    </div>
+
+    <div id="cpu-status">
+        CPU: 0%
+    </div>
+
+    <div id="ram-status">
+        RAM: 0%
+    </div>
+
+    <div id="system-status">
+        JARVIS ACTIVE
+    </div>
+
+</div>
+
+<!-- ================= AI CHAT PANEL ================= -->
+
+<div id="jarvis-chat-panel">
+
+    <div class="chat-header">
+
+        JARVIS AI CONSOLE
+
+    </div>
+
+    <div id="chat-messages">
+
+        <div class="ai-message">
+            SYSTEM READY...
+        </div>
+
+    </div>
+
+    <div class="chat-input-area">
+
+        <input
+        type="text"
+        id="chat-input"
+        placeholder="Type command...">
+
+        <button onclick="sendMessage()">
+
+            SEND
+
+        </button>
+
+    </div>
+
+</div>
+
+<!-- ================= PARTICLES ================= -->
+
+<div class="particles">
+
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+
+</div>
+
+<!-- ================= CENTER ================= -->
+
+<div class="center-core">
+
+    <div class="jarvis-title">
+        JARVIS
+    </div>
+
+    <div class="status">
+        OFFLINE AI SYSTEM
+    </div>
+<div class="voice-wave">
+
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+
+</div>
+</div>
+
+<!-- ================= ORBIT ================= -->
+
+<div class="orbit">
+
+    <!-- TOP -->
+
+    <div class="module"
+    style="top:0%; left:50%; transform:translateX(-50%);"
+    onclick="openModule('/music-studio')">
+
+        <span>Make Music</span>
+
+    </div>
+
+    <!-- TOP RIGHT -->
+
+    <div class="module"
+    style="top:5%; right:20%;"
+    onclick="openModule('/video-editor')">
+
+        <span>Video Editing</span>
+
+    </div>
+
+    <div class="module"
+    style="top:18%; right:5%;"
+    onclick="openModule('/bahujan-party')">
+
+        <span>Bahujan Party</span>
+
+    </div>
+
+    <div class="module"
+    style="top:38%; right:0%;"
+    onclick="openModule('/map-assistant')">
+
+        <span>Map Assistant</span>
+
+    </div>
+
+    <div class="module"
+    style="top:58%; right:3%;"
+    onclick="openModule('/language-translator')">
+
+        <span>Translator</span>
+
+    </div>
+
+    <div class="module"
+    style="bottom:15%; right:10%;"
+    onclick="openModule('/video-uploader')">
+
+        <span>Video Uploader</span>
+
+    </div>
+
+    <div class="module"
+    style="bottom:0%; right:28%;"
+    onclick="openModule('/game-center')">
+
+        <span>Game</span>
+
+    </div>
+
+    <!-- BOTTOM -->
+
+    <div class="module"
+    style="bottom:0%; left:50%; transform:translateX(-50%);"
+    onclick="openModule('/drone-assistant')">
+
+        <span>Drone Assistant</span>
+
+    </div>
+
+    <div class="module"
+    style="bottom:0%; left:28%;"
+    onclick="openModule('/home-assistant')">
+
+        <span>Home Assistant</span>
+
+    </div>
+
+    <div class="module"
+    style="bottom:15%; left:10%;"
+    onclick="openModule('/weather-assistant')">
+
+        <span>Weather Assistant</span>
+
+    </div>
+
+    <div class="module"
+    style="top:58%; left:3%;"
+    onclick="openModule('/app-store')">
+
+        <span>App Store</span>
+
+    </div>
+
+    <div class="module"
+    style="top:38%; left:0%;"
+    onclick="openModule('/ai-core')">
+
+        <span>Human AI Assistant</span>
+
+    </div>
+
+    <div class="module"
+    style="top:18%; left:5%;"
+    onclick="openModule('/friends-book')">
+
+        <span>Friends Book</span>
+
+    </div>
+
+    <div class="module"
+    style="top:5%; left:20%;"
+    onclick="openModule('/truster')">
+
+        <span>Truster</span>
+
+    </div>
+
+    <!-- INNER ORBIT -->
+
+    <div class="module"
+    style="top:20%; left:35%;"
+    onclick="openModule('/create-video')">
+
+        <span>Create Video</span>
+
+    </div>
+
+    <div class="module"
+    style="top:20%; right:35%;"
+    onclick="openModule('/create-picture')">
+
+        <span>Create Picture</span>
+
+    </div>
+
+    <div class="module"
+    style="top:38%; left:20%;"
+    onclick="openModule('/picture-editor')">
+
+        <span>Picture Editing</span>
+
+    </div>
+
+    <div class="module"
+    style="top:38%; right:20%;"
+    onclick="openModule('/create-story')">
+
+        <span>Create Story</span>
+
+    </div>
+
+    <div class="module"
+    style="bottom:30%; left:20%;"
+    onclick="openModule('/background-sound')">
+
+        <span>Background Sound</span>
+
+    </div>
+
+    <div class="module"
+    style="bottom:30%; right:20%;"
+    onclick="openModule('/ai-english-teacher')">
+
+        <span>AI English Teacher</span>
+
+    </div>
+
+    <div class="module"
+    style="bottom:15%; left:35%;"
+    onclick="openModule('/law-case-handler')">
+
+        <span>Law Case Handler</span>
+
+    </div>
+
+    <div class="module"
+    style="bottom:15%; right:35%;"
+    onclick="openModule('/law-study')">
+
+        <span>Law Study</span>
+
+    </div>
+
+    <!-- INNER LOWER -->
+
+    <div class="module"
+    style="top:52%; left:30%;"
+    onclick="openModule('/office-assistant')">
+
+        <span>Office Assistant</span>
+
+    </div>
+
+    <div class="module"
+    style="top:52%; right:30%;"
+    onclick="openModule('/personal-assistant')">
+
+        <span>Personal Assistant</span>
+
+    </div>
+
+    <div class="module"
+    style="bottom:32%; left:35%;"
+    onclick="openModule('/jeene-do-foundation')">
+
+        <span>Jeene Do NGO</span>
+
+    </div>
+
+    <div class="module"
+    style="bottom:32%; right:35%;"
+    onclick="openModule('/msz-system')">
+
+        <span>MSZ System</span>
+
+    </div>
+
+    <div class="module"
+    style="bottom:45%; left:25%;"
+    onclick="openModule('/ai-notepad')">
+
+        <span>AI Notepad</span>
+
+    </div>
+
+    <div class="module"
+    style="bottom:45%; right:25%;"
+    onclick="openModule('/id-banner-editor')">
+
+        <span>ID Banner Editor</span>
+
+    </div>
+
+</div>
+
+<script>
+
+function openModule(route){
+
+    window.location.href = route;
+}
+async function updateSystemStatus(){
+
+    try{
+
+        const response = await fetch("/system-status");
+
+        const data = await response.json();
+
+        document.getElementById(
+            "live-time"
+        ).innerText = "TIME: " + data.time;
+
+        document.getElementById(
+            "cpu-status"
+        ).innerText = "CPU: " + data.cpu + "%";
+
+        document.getElementById(
+            "ram-status"
+        ).innerText = "RAM: " + data.ram + "%";
+
+        document.getElementById(
+            "system-status"
+        ).innerText = data.status;
+
+    }
+
+    catch(error){
+
+        console.log(error);
+    }
+}
+
+setInterval(updateSystemStatus, 1000);
+
+updateSystemStatus();
+
+/* ================= AI CHAT SYSTEM ================= */
+
+function addUserMessage(text){
+
+    const chatMessages =
+    document.getElementById(
+        "chat-messages"
+    );
+
+    const message =
+    document.createElement("div");
+
+    message.className =
+    "user-message";
+
+    message.innerText = text;
+
+    chatMessages.appendChild(message);
+
+    chatMessages.scrollTop =
+    chatMessages.scrollHeight;
+}
+
+function addAIMessage(text){
+
+    const chatMessages =
+    document.getElementById(
+        "chat-messages"
+    );
+
+    const message =
+    document.createElement("div");
+
+    message.className =
+    "ai-message";
+
+    message.innerText = text;
+
+    chatMessages.appendChild(message);
+
+    chatMessages.scrollTop =
+    chatMessages.scrollHeight;
+
+    /* existing jarvis voice */
+
+    if(typeof jarvisSpeak === "function"){
+
+        jarvisSpeak(text);
+    }
+}
+
+function sendMessage(){
+
+    const input =
+    document.getElementById(
+        "chat-input"
+    );
+
+    if(!input) return;
+
+    const text =
+    input.value.trim();
+
+    if(text === "") return;
+
+    addUserMessage(text);
+
+    processCommand(text);
+
+    input.value = "";
+}
+
+/* ================= COMMAND ENGINE ================= */
+
+function processCommand(command){
+
+    command =
+    command.toLowerCase();
+
+    /* ================= MUSIC ================= */
+
+    if(command.includes("music")){
+
+        addAIMessage(
+            "Opening Music Studio"
+        );
+
+        setTimeout(() => {
+
+            openModule(
+                "/music-studio"
+            );
+
+        }, 1000);
+
+        return;
+    }
+
+    /* ================= GAME ================= */
+
+    if(command.includes("game")){
+
+        addAIMessage(
+            "Opening Game Center"
+        );
+
+        setTimeout(() => {
+
+            openModule(
+                "/game-center"
+            );
+
+        }, 1000);
+
+        return;
+    }
+
+    /* ================= LAW ================= */
+
+    if(command.includes("law")){
+
+        addAIMessage(
+            "Opening Law Study Module"
+        );
+
+        setTimeout(() => {
+
+            openModule(
+                "/law-study"
+            );
+
+        }, 1000);
+
+        return;
+    }
+
+    /* ================= AI RESPONSE ================= */
+
+    addAIMessage(
+        "Command not recognized."
+    );
+}
+
+/* ================= ENTER KEY ================= */
+
+window.addEventListener(
+    "load",
+    () => {
+
+    const input =
+    document.getElementById(
+        "chat-input"
+    );
+
+    if(input){
+
+        input.addEventListener(
+            "keypress",
+            function(e){
+
+            if(e.key === "Enter"){
+
+                sendMessage();
+            }
+
+        });
+    }
+
+});
+
+</script>
+
+<script>
+
+/* code */
+/* ================= AI BOOT MESSAGE ================= */
+
+window.addEventListener(
+    "load",
+    () => {
+
+    setTimeout(() => {
+
+        addAIMessage(
+            "Jarvis AI Console Online."
+        );
+
+    }, 1800);
+
+    setTimeout(() => {
+
+        addAIMessage(
+            "Awaiting your command."
+        );
+
+    }, 3200);
+
+});
+
+/* ================= SMART AI RESPONSES ================= */
+
+function smartReply(command){
+
+    command =
+    command.toLowerCase();
+
+    /* ================= HELLO ================= */
+
+    if(
+        command.includes("hello") ||
+        command.includes("hi")
+    ){
+
+        return "Hello sir.";
+    }
+
+    /* ================= TIME ================= */
+
+    if(command.includes("time")){
+
+        const now =
+        new Date();
+
+        return (
+            "Current time is " +
+            now.toLocaleTimeString()
+        );
+    }
+
+    /* ================= DATE ================= */
+
+    if(command.includes("date")){
+
+        const now =
+        new Date();
+
+        return (
+            "Today is " +
+            now.toDateString()
+        );
+    }
+
+    /* ================= NAME ================= */
+
+    if(command.includes("your name")){
+
+        return (
+            "I am Jarvis artificial intelligence system."
+        );
+    }
+
+    return null;
+}
+
+/* ================= UPDATE COMMAND ENGINE ================= */
+
+const oldProcessCommand =
+processCommand;
+
+processCommand = function(command){
+
+    const smart =
+    smartReply(command);
+
+    if(smart){
+
+        addAIMessage(smart);
+
+        return;
+    }
+
+    oldProcessCommand(command);
+};
+
+/* ================= DRAG CHAT PANEL ================= */
+
+const chatPanel =
+document.getElementById(
+    "jarvis-chat-panel"
+);
+
+const chatHeader =
+document.querySelector(
+    ".chat-header"
+);
+
+let isDragging = false;
+
+let offsetX = 0;
+let offsetY = 0;
+
+chatHeader.addEventListener(
+    "mousedown",
+    (e) => {
+
+    isDragging = true;
+
+    offsetX =
+    e.clientX -
+    chatPanel.offsetLeft;
+
+    offsetY =
+    e.clientY -
+    chatPanel.offsetTop;
+
+});
+
+document.addEventListener(
+    "mousemove",
+    (e) => {
+
+    if(!isDragging) return;
+
+    chatPanel.style.left =
+    (e.clientX - offsetX)
+    + "px";
+
+    chatPanel.style.top =
+    (e.clientY - offsetY)
+    + "px";
+
+});
+
+document.addEventListener(
+    "mouseup",
+    () => {
+
+    isDragging = false;
+
+});
+
+/* ================= AI THINKING EFFECT ================= */
+
+function addThinkingMessage(){
+
+    const chatMessages =
+    document.getElementById(
+        "chat-messages"
+    );
+
+    const thinking =
+    document.createElement("div");
+
+    thinking.className =
+    "ai-message";
+
+    thinking.id =
+    "thinking-message";
+
+    thinking.innerText =
+    "JARVIS THINKING...";
+
+    chatMessages.appendChild(
+        thinking
+    );
+
+    chatMessages.scrollTop =
+    chatMessages.scrollHeight;
+}
+
+function removeThinkingMessage(){
+
+    const thinking =
+    document.getElementById(
+        "thinking-message"
+    );
+
+    if(thinking){
+
+        thinking.remove();
+    }
+}
+
+</script>
+
+</body>
+
+</html>

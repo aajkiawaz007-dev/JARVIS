@@ -1,0 +1,36 @@
+{
+    "module": "Drone Assistant",
+
+    "resources": {
+
+        "models": [
+
+            "yolov8",
+            "opencv"
+        ],
+
+        "databases": [
+
+            "mission_logs"
+        ],
+
+        "assets": [
+
+            "maps",
+            "missions"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "camera",
+            "gps",
+            "drone_controller"
+        ]
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "module": "ID Banner Editor",
+
+    "resources": {
+
+        "models": [
+
+            "yolov8",
+            "mobilenet",
+            "resnet50",
+            "efficientnet",
+            "east-text-detector",
+            "dbnet"
+        ],
+
+        "libraries": [
+
+            "opencv-python",
+            "numpy",
+            "pillow",
+            "matplotlib",
+            "scipy",
+            "pandas",
+            "torch",
+            "torchvision",
+            "onnxruntime",
+            "easyocr",
+            "pytesseract",
+            "reportlab",
+            "python-barcode",
+            "qrcode",
+            "imageio",
+            "imageio-ffmpeg",
+            "moviepy",
+            "sqlite3",
+            "sqlalchemy",
+            "pyyaml",
+            "toml",
+            "tqdm",
+            "rich"
+        ],
+
+        "databases": [
+
+            "sqlite",
+            "users",
+            "templates",
+            "banners",
+            "id_cards",
+            "logos",
+            "fonts",
+            "exports",
+            "history"
+        ],
+
+        "assets": [
+
+            "templates",
+            "backgrounds",
+            "frames",
+            "logos",
+            "icons",
+            "fonts",
+            "stickers",
+            "images",
+            "qr_codes",
+            "barcodes",
+            "watermarks",
+            "exports"
+        ],
+"storage": [
+
+    "module_data.json"
+
+],
+        "apis": [],
+
+        "hardware": [
+
+            "camera",
+            "scanner",
+            "printer",
+            "display",
+            "mouse",
+            "keyboard",
+            "cpu",
+            "gpu",
+            "ram",
+            "storage"
+        ]
+    }
+}
