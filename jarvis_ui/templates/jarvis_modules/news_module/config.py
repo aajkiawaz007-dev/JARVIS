@@ -4,7 +4,7 @@
 
 MODULE_NAME = "News Module"
 
-<<<<<<< HEAD
+# HEAD
 MODULE_ID = "news_module"
 
 VERSION = "1.0"

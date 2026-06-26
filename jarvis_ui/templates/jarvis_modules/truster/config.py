@@ -14,7 +14,7 @@ LAST_UPDATED = "2026-06-08"
 
 CATEGORY = "Creative"
 
-<<<<<<< HEAD
+# HEAD
 DESCRIPTION = "AI social media Truster System"
 =======
 DESCRIPTION = "AI Music Generation System"

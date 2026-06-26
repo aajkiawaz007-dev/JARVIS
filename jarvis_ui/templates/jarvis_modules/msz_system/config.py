@@ -4,7 +4,7 @@
 
 MODULE_NAME = "MSZ System"
 
-<<<<<<< HEAD
+# HEAD
 MODULE_ID = "msz_system"
 =======
 MODULE_NAME = "Msz System Module"
@@ -14,7 +14,7 @@ VERSION = "1.0"
 
 STATUS = "ACTIVE"
 
-<<<<<<< HEAD
+# HEAD
 AUTHOR = "JARVIS"
 
 =======
@@ -25,7 +25,7 @@ LAST_UPDATED = "2026-06-08"
 
 CATEGORY = "Creative"
 
-<<<<<<< HEAD
+# HEAD
 DESCRIPTION = "AI MSZ System"
 
 ROUTE = "/msz-system"

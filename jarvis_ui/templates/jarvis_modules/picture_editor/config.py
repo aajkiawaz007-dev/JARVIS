@@ -4,7 +4,7 @@
 
 MODULE_NAME = "Picture Editor"
 
-<<<<<<< HEAD
+# HEAD
 MODULE_ID = "picture_editor"
 
 VERSION = "1.0"

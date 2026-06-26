@@ -1,0 +1,6 @@
+{
+    "security_enabled": true,
+    "safe_mode": true,
+    "debug_mode": false,
+    "module_locked": false
+}

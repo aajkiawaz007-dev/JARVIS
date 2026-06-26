@@ -4,7 +4,7 @@
 
 MODULE_NAME = "Law Study"
 
-<<<<<<< HEAD
+# HEAD
 MODULE_ID = "law_study"
 =======
 MODULE_NAME = "Law_Study_module"
@@ -14,7 +14,7 @@ VERSION = "1.0"
 
 STATUS = "ACTIVE"
 
-<<<<<<< HEAD
+# HEAD
 AUTHOR = "JARVIS"
 
 =======
@@ -25,7 +25,7 @@ LAST_UPDATED = "2026-06-08"
 
 CATEGORY = "Creative"
 
-<<<<<<< HEAD
+# HEAD
 DESCRIPTION = "AI Law Study System"
 
 ROUTE = "/law-study"

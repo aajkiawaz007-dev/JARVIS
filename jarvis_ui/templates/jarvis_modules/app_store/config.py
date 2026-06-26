@@ -16,7 +16,7 @@ LAST_UPDATED = "2026-06-08"
 
 CATEGORY = "Creative"
 
-<<<<<<< HEAD
+# HEAD
 DESCRIPTION = "AI Music Generation System"
 =======
 DESCRIPTION = "AI app_store System"

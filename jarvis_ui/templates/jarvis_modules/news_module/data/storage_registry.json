@@ -1,0 +1,52 @@
+{
+    "module": "AI Core",
+
+    "version": "1.0",
+
+    "storage": {
+
+        "module_data":
+            "data/module_data.json",
+
+        "users":
+            "data/users/",
+
+        "settings":
+            "data/settings/settings.json",
+
+        "logs":
+            "data/logs/module.log",
+
+        "backups":
+            "data/backups/backup.json",
+
+        "cache":
+            "data/cache/cache.json",
+
+        "exports":
+            "data/exports/export.json",
+
+        "imports":
+            "data/imports/import.json"
+    },
+
+    "database": {
+
+        "adapter":
+            "database/database_adapter.py",
+
+        "current":
+            "JSON",
+
+        "future": [
+
+            "SQLite",
+
+            "MySQL",
+
+            "PostgreSQL",
+
+            "MongoDB"
+        ]
+    }
+}

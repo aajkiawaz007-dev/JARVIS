@@ -147,11 +147,88 @@
             "backups",
             "exports"
         ],
-"storage": [
+"storage": {
+    "type": "JSON",
+    "file": "module_data.json"
+},
 
-    "module_data.json"
-
+"user_memory": [
+    "default_user.json"
 ],
+
+{
+    "settings": [ 
+        "settings.json"
+    ]
+}
+
+{
+    "logs": [
+        "module.log"
+    ]
+}
+
+{
+    "backups": [
+        "backup.json"
+    ]
+}
+
+{
+    "import_export": {
+
+        "export": "export.json",
+
+        "import": "import.json"
+    }
+}
+
+{
+    "database": {
+
+        "adapter": "database_adapter.py",
+
+        "current": "JSON"
+    }
+}
+
+{
+    "registry": [
+        "storage_registry.json"
+    ]
+}
+
+{
+    "file_manager": {
+        "enabled": true
+    }
+}
+
+{
+    "resource_scanner": {
+
+        "enabled": true
+    }
+}
+
+{
+    "storage_validator": {
+        "enabled": true
+    }
+}
+
+{
+    "statistics": {
+
+        "enabled": true
+    }
+}
+
+{
+    "cache": [
+        "cache.json"
+    ]
+}
         "apis": [],
 
         "hardware": [

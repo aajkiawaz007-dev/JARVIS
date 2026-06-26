@@ -4,7 +4,7 @@
 
 MODULE_NAME = "Personal Assistant"
 
-<<<<<<< HEAD
+# HEAD
 MODULE_ID = "personal_assistant"
 
 VERSION = "1.0"

@@ -4,7 +4,7 @@
 
 MODULE_NAME = "Language Translator"
 
-<<<<<<< HEAD
+# HEAD
 MODULE_ID = "language_translator"
 =======
 MODULE_NAME = "Language Translator Module"
@@ -22,7 +22,7 @@ LAST_UPDATED = "2026-06-08"
 
 CATEGORY = "Creative"
 
-<<<<<<< HEAD
+# HEAD
 DESCRIPTION = "AI Language Translator"
 
 ROUTE = "/language-translator"

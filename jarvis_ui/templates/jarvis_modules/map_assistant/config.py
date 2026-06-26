@@ -4,7 +4,7 @@
 
 MODULE_NAME = "Map Assistant"
 
-<<<<<<< HEAD
+# HEAD
 MODULE_ID = "map_assistant"
 =======
 MODULE_NAME = "Map_Assistant_module"
@@ -14,7 +14,7 @@ VERSION = "1.0"
 
 STATUS = "ACTIVE"
 
-<<<<<<< HEAD
+# HEAD
 AUTHOR = "JARVIS"
 
 =======
@@ -25,7 +25,7 @@ LAST_UPDATED = "2026-06-08"
 
 CATEGORY = "Creative"
 
-<<<<<<< HEAD
+# HEAD
 DESCRIPTION = "AI Map Assistant"
 
 ROUTE = "/map-assistant"

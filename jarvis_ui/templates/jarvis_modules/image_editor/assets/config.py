@@ -4,7 +4,7 @@
 
 MODULE_NAME = "Image Editor"
 
-<<<<<<< HEAD
+# HEAD
 MODULE_ID = "image_editor"
 =======
 MODULE_NAME = "Background Sound"
@@ -22,7 +22,7 @@ LAST_UPDATED = "2026-06-08"
 
 CATEGORY = "Creative"
 
-<<<<<<< HEAD
+# HEAD
 DESCRIPTION = "AI Image Editor"
 
 ROUTE = "/image-editor"

@@ -4,7 +4,7 @@
 
 MODULE_NAME = "NGO System"
 
-<<<<<<< HEAD
+# HEAD
 MODULE_ID = "ngo_system"
 
 VERSION = "1.0"

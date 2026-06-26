@@ -4,7 +4,7 @@
 
 MODULE_NAME = " Robotics Module"
 
-<<<<<<< HEAD
+# HEAD
 MODULE_ID = "robotics_module"
 
 VERSION = "1.0"

@@ -4,7 +4,7 @@
 
 MODULE_NAME = "Law Case Handler"
 
-<<<<<<< HEAD
+# HEAD
 MODULE_ID = "law_case_handler"
 =======
 MODULE_NAME = "Law Case Handler Module"
@@ -22,7 +22,7 @@ LAST_UPDATED = "2026-06-08"
 
 CATEGORY = "Creative"
 
-<<<<<<< HEAD
+# HEAD
 DESCRIPTION = "AI Law Case Handler"
 
 ROUTE = "/law-case-handler"

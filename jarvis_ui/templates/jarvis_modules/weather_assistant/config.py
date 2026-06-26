@@ -4,7 +4,7 @@
 
 MODULE_NAME = "Weather Assistant"
 
-<<<<<<< HEAD
+# HEAD
 MODULE_ID = "weather_assistant"
 
 VERSION = "1.0"

@@ -4,7 +4,7 @@
 
 MODULE_NAME = "Video Uploader"
 
-<<<<<<< HEAD
+# HEAD
 MODULE_ID = "video_uploader"
 
 VERSION = "1.0"

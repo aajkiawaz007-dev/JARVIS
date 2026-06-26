@@ -9,7 +9,7 @@ MODULE_NAME = "Audio Module"
 VERSION = "1.0"
 
 STATUS = "ACTIVE"
-<<<<<<< HEAD
+# HEAD
 AUTHOR = "JARVIS"
 =======
 
@@ -22,7 +22,7 @@ LAST_UPDATED = "2026-06-08"
 
 CATEGORY = "Creative"
 
-<<<<<<< HEAD
+# HEAD
 DESCRIPTION = "AI Music Generation System"
 =======
 DESCRIPTION = "AI Audio Generation System"

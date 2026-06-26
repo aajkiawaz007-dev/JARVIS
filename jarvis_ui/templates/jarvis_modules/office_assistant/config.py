@@ -4,7 +4,7 @@
 
 MODULE_NAME = "Office Assistant"
 
-<<<<<<< HEAD
+# HEAD
 MODULE_ID = "office_assistant"
 
 VERSION = "1.0"
