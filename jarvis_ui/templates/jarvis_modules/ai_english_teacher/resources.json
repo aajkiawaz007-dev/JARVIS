@@ -167,6 +167,82 @@
 }
 
 {
+    "security": {
+
+        "enabled": true,
+
+        "manager": "security_manager.py"
+    }
+}
+
+{
+    "permission_manager": {
+
+        "enabled": true
+    }
+}
+
+{
+    "access_control": {
+
+        "enabled": true
+    }
+}
+
+{
+    "operation_validator": {
+
+        "enabled": true
+    }
+}
+
+{
+    "health_monitor": {
+
+        "enabled": true
+    }
+}
+
+{
+    "crash_recovery": {
+
+        "enabled": true
+    }
+}
+
+{
+    "audit_logger": {
+
+        "enabled": true
+    }
+}
+
+{
+    "emergency_manager": {
+
+        "enabled": true
+    }
+}
+
+{
+    "safe_mode_manager": {
+        "enabled": true
+    }
+}
+
+{
+    "watchdog_manager": {
+        "enabled": true
+    }
+}
+
+{
+    "maintenance_manager": {
+        "enabled": true
+    }
+}
+
+{
     "cache": [
         "cache.json"
     ]

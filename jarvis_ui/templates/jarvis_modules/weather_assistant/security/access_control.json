@@ -1,0 +1,7 @@
+{
+    "enabled": true,
+
+    "default_policy": "deny",
+
+    "permission_manager": "permission_manager.py"
+}

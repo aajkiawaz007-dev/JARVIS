@@ -27,10 +27,9 @@ if TARGET_FILE is None:
 # नीचे जो टेक्स्ट जोड़ना है वह लिखें
 TEXT_TO_APPEND = """
 
---------------------------------------------------
-## Phase 6 Extension Step 14
+## Phase 7 Extension Step 12
 
-Universal Storage Statistics
+Universal Maintenance Manager
 
 """
 # ==========================================

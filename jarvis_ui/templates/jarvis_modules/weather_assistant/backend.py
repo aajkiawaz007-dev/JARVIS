@@ -1,11 +1,32 @@
 from security.security_manager import SecurityManager
+from security.access_control import AccessControlManager
+from security.operation_validator import OperationValidator
+from security.health_monitor import HealthMonitor
+from security.crash_recovery import CrashRecovery
+from security.audit_logger import AuditLogger
+from security.emergency_manager import EmergencyManager
+from security.safe_mode_manager import SafeModeManager
+from security.recovery_manager import RecoveryManager
+from security.watchdog_manager import WatchdogManager
+from security.maintenance_manager import MaintenanceManager
+
+maintenance = MaintenanceManager()
+watchdog = WatchdogManager()
+recovery = RecoveryManager()
+safe_mode = SafeModeManager()
+emergency = EmergencyManager()
+audit = AuditLogger()
+crash = CrashRecovery()
+security/health.json
+validator = OperationValidator()
+access = AccessControlManager()
 security = SecurityManager()
 
 from config import (
     MODULE_ID,
     MODULE_NAME,
     VERSION,
-    STATUS,
+    STATUS, 
     HEALTH,
     CATEGORY
 )
@@ -1008,7 +1029,6 @@ class AICore:
 # =====================================================
 
 class WeatherAssistant:
->>>>>>> 9730a3e00df25714032d3a3b6c1018c6d263c02e
 
     def __init__(self):
 
@@ -1017,8 +1037,6 @@ class WeatherAssistant:
             "AI Core"
 =======
             "Weather Assistant"
->>>>>>> 9730a3e00df25714032d3a3b6c1018c6d263c02e
-        )
 
         self.version = (
             "1.0"
@@ -1057,4 +1075,3 @@ if __name__ == "__main__":
     print(
         weather_assistant.get_info()
     )
->>>>>>> 9730a3e00df25714032d3a3b6c1018c6d263c02e
